@@ -1,0 +1,372 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ------------------------------------------------------------------
+   Vaakil AI design tokens: "Court navy and brass"
+   Deep navy for authority, brass gold for distinction, ivory paper for
+   reading comfort. Light mode leads with navy; dark mode leads with gold.
+   Every text pair meets WCAG AA (4.5:1) on its intended surface.
+   ------------------------------------------------------------------ */
+:root {
+  --bg: #f5f4f0;
+  --surface: #ffffff;
+  --surface-2: #f0eee8;
+  --ink: #0c1631;
+  --ink-2: #2e3852;
+  --muted: #5d6579;
+  --border: #e4e1d8;
+  --border-strong: #cdc9bc;
+  /* Form-control boundaries need 3:1 against white (WCAG 1.4.11). */
+  --border-input: #8a90a0;
+  --placeholder: #6b7385;
+  --ring: #1f3b7a;
+
+  --primary: #15295a;
+  --primary-hover: #0f1f46;
+  --primary-ink: #ffffff;
+  --primary-soft: #e9edf6;
+
+  /* Brand surfaces: hero cards, sidebar, auth panel */
+  --brand: #0b1630;
+  --brand-2: #1a3168;
+  --on-brand: #f4efe3;
+  --on-brand-muted: #aeb8cf;
+  --gold: #c29a45;
+  --gold-bright: #e2c178;
+
+  --accent: #8a6417;
+  --accent-soft: #f6eedb;
+
+  --success: #11744c;
+  --success-soft: #e5f3ec;
+  --warning: #915500;
+  --warning-soft: #fff4dd;
+  --danger: #b42318;
+  --danger-soft: #fcebe9;
+  --info: #1e4fbf;
+  --info-soft: #e8eefc;
+
+  /* Icon tiles (soft background / foreground) */
+  --tile-navy: #e8edf8;
+  --tile-navy-fg: #1b3470;
+  --tile-gold: #f7eeda;
+  --tile-gold-fg: #85600f;
+  --tile-green: #e3f3ea;
+  --tile-green-fg: #0f6e48;
+  --tile-maroon: #f8e8ea;
+  --tile-maroon-fg: #8c1d2f;
+  --tile-teal: #e1f2f3;
+  --tile-teal-fg: #0d626b;
+  --tile-slate: #eceef3;
+  --tile-slate-fg: #3a4560;
+
+  --shadow-sm: 0 1px 2px rgb(12 22 49 / 0.05), 0 1px 1px rgb(12 22 49 / 0.03);
+  --shadow-md: 0 8px 24px -8px rgb(12 22 49 / 0.14), 0 2px 6px rgb(12 22 49 / 0.05);
+  --shadow-lg: 0 28px 64px -20px rgb(12 22 49 / 0.3);
+  --shadow-brand: 0 22px 44px -18px rgb(11 22 48 / 0.6);
+
+  /* Frosted glass (used sparingly: bars, floating panels, chips on brand surfaces).
+     Opaque enough that body text keeps AA contrast over any background. */
+  --glass-bg: rgb(255 255 255 / 0.74);
+  --glass-border: rgb(255 255 255 / 0.65);
+  --glass-edge: rgb(12 22 49 / 0.08);
+  --glass-highlight: rgb(255 255 255 / 0.7);
+  --ambient-1: rgb(26 49 104 / 0.10);
+  --ambient-2: rgb(194 154 69 / 0.10);
+}
+
+.dark {
+  --bg: #060b17;
+  --surface: #0d1426;
+  --surface-2: #141d34;
+  --ink: #eceef4;
+  --ink-2: #c5cbd9;
+  --muted: #8d97ae;
+  --border: #1e2942;
+  --border-strong: #2c3958;
+  --border-input: #56668c;
+  --placeholder: #8d97ae;
+  --ring: #e2c178;
+
+  --primary: #e2c178;
+  --primary-hover: #ecd197;
+  --primary-ink: #1b1405;
+  --primary-soft: #272111;
+
+  --brand: #0f1a36;
+  --brand-2: #1d2f5c;
+  --on-brand: #f4efe3;
+  --on-brand-muted: #aeb8cf;
+  --gold: #d4ae5c;
+  --gold-bright: #e9cb8a;
+
+  --accent: #e2c178;
+  --accent-soft: #272111;
+
+  --success: #5fd39c;
+  --success-soft: #0f2a20;
+  --warning: #f2bb55;
+  --warning-soft: #2a2110;
+  --danger: #ff8a7e;
+  --danger-soft: #2e1515;
+  --info: #8fb0ff;
+  --info-soft: #121d38;
+
+  --tile-navy: #16223f;
+  --tile-navy-fg: #a9bef2;
+  --tile-gold: #272111;
+  --tile-gold-fg: #e2c178;
+  --tile-green: #0f2a20;
+  --tile-green-fg: #5fd39c;
+  --tile-maroon: #2e1419;
+  --tile-maroon-fg: #f29aa8;
+  --tile-teal: #0d2a2d;
+  --tile-teal-fg: #6cd3dc;
+  --tile-slate: #1a2236;
+  --tile-slate-fg: #b9c2d6;
+
+  --shadow-sm: 0 1px 2px rgb(0 0 0 / 0.45);
+  --shadow-md: 0 8px 24px -8px rgb(0 0 0 / 0.6);
+  --shadow-lg: 0 28px 64px -20px rgb(0 0 0 / 0.7);
+  --shadow-brand: 0 22px 44px -18px rgb(0 0 0 / 0.75);
+
+  --glass-bg: rgb(16 24 44 / 0.72);
+  --glass-border: rgb(255 255 255 / 0.09);
+  --glass-edge: rgb(0 0 0 / 0.35);
+  --glass-highlight: rgb(255 255 255 / 0.06);
+  --ambient-1: rgb(29 47 92 / 0.45);
+  --ambient-2: rgb(212 174 92 / 0.08);
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-border-input: var(--border-input);
+  --color-placeholder: var(--placeholder);
+  --color-ring: var(--ring);
+  --color-primary: var(--primary);
+  --color-primary-hover: var(--primary-hover);
+  --color-primary-ink: var(--primary-ink);
+  --color-primary-soft: var(--primary-soft);
+  --color-brand: var(--brand);
+  --color-brand-2: var(--brand-2);
+  --color-on-brand: var(--on-brand);
+  --color-on-brand-muted: var(--on-brand-muted);
+  --color-gold: var(--gold);
+  --color-gold-bright: var(--gold-bright);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-success: var(--success);
+  --color-success-soft: var(--success-soft);
+  --color-warning: var(--warning);
+  --color-warning-soft: var(--warning-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --color-info: var(--info);
+  --color-info-soft: var(--info-soft);
+
+  --font-sans: var(--font-ui), var(--font-devanagari), ui-sans-serif, system-ui, sans-serif;
+  /* Inter: single-storey a and open digits read better at small sizes. */
+  --font-serif: var(--font-display), var(--font-devanagari-serif), var(--font-devanagari), ui-serif, Georgia, serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1.125rem;
+  --radius-xl: 1.375rem;
+  --radius-2xl: 1.75rem;
+
+  --shadow-sm: var(--shadow-sm);
+  --shadow-md: var(--shadow-md);
+  --shadow-lg: var(--shadow-lg);
+  --shadow-brand: var(--shadow-brand);
+
+  --ease-out-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-fade-in: fade-in 0.2s ease-out;
+  --animate-slide-up: slide-up 0.28s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-sheet-up: sheet-up 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+  --animate-page-in: page-in 0.32s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes slide-up {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes sheet-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
+}
+@keyframes page-in {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@layer base {
+  * {
+    border-color: var(--border);
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    font-feature-settings: "cv05", "cv08", "cv11";
+  }
+  a,
+  button,
+  [role="button"],
+  summary,
+  label {
+    touch-action: manipulation;
+  }
+  h1, h2, h3 {
+    text-wrap: balance;
+  }
+  /* One icon weight across the product (lucide defaults to 2). */
+  svg.lucide {
+    stroke-width: 1.75;
+  }
+  /* Privacy mode (toggled from the home card): blur client names in public places. */
+  .privacy-on [data-private] {
+    filter: blur(6px);
+    transition: filter 0.2s;
+  }
+  .privacy-on [data-private]:hover,
+  .privacy-on [data-private]:focus-visible {
+    filter: none;
+  }
+  /* Devanagari needs extra line height for matras and conjuncts. */
+  :lang(hi),
+  .lang-hi {
+    line-height: 1.85;
+  }
+  ::selection {
+    background: color-mix(in srgb, var(--gold) 30%, transparent);
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+/* Long-form legal text (drafts, answers, statutes) */
+@utility prose-legal {
+  color: var(--ink-2);
+  line-height: 1.75;
+  font-size: 0.975rem;
+  & h1, & h2, & h3 { color: var(--ink); font-family: var(--font-serif); line-height: 1.3; }
+  & h1 { font-size: 1.5rem; margin: 1.25rem 0 0.75rem; }
+  & h2 { font-size: 1.25rem; margin: 1.25rem 0 0.5rem; }
+  & h3 { font-size: 1.05rem; margin: 1rem 0 0.4rem; }
+  & p { margin: 0.6rem 0; }
+  & ul, & ol { margin: 0.6rem 0; padding-left: 1.4rem; }
+  & ul { list-style: disc; }
+  & ol { list-style: decimal; }
+  & li { margin: 0.25rem 0; }
+  & strong { color: var(--ink); font-weight: 650; }
+  & a { color: var(--primary); text-decoration: underline; text-underline-offset: 2px; }
+  & blockquote { border-left: 3px solid var(--gold); padding-left: 0.9rem; color: var(--muted); }
+  & code { font-family: var(--font-mono); font-size: 0.85em; background: var(--surface-2); padding: 0.1rem 0.3rem; border-radius: 0.3rem; }
+  & table { width: 100%; border-collapse: collapse; margin: 0.8rem 0; font-size: 0.9rem; }
+  & th, & td { border: 1px solid var(--border); padding: 0.4rem 0.6rem; text-align: left; vertical-align: top; }
+  & th { background: var(--surface-2); color: var(--ink); }
+}
+
+/* Navy brand surface with a fine guilloché-style rosette, as on bank cards
+   and stamp paper. Pure CSS, no image request. */
+@utility brand-surface {
+  color: var(--on-brand);
+  background-color: var(--brand);
+  background-image:
+    repeating-radial-gradient(circle at 100% 0%, rgb(226 193 120 / 0.09) 0 1px, transparent 1px 13px),
+    repeating-radial-gradient(circle at 0% 120%, rgb(226 193 120 / 0.06) 0 1px, transparent 1px 17px),
+    linear-gradient(135deg, var(--brand) 0%, var(--brand-2) 100%);
+}
+
+/* Frosted glass panel: for floating or overlapping UI only (bars, pop-ups, sheets,
+   chips over imagery). Never for long reading text. */
+@utility glass {
+  background-color: var(--glass-bg);
+  -webkit-backdrop-filter: blur(18px) saturate(170%);
+  backdrop-filter: blur(18px) saturate(170%);
+  border: 1px solid var(--glass-border);
+  box-shadow: inset 0 1px 0 var(--glass-highlight), 0 0 0 1px var(--glass-edge), var(--shadow-md);
+}
+
+/* Glass on navy brand surfaces (hero cards, sidebar). */
+@utility glass-on-brand {
+  background-color: rgb(255 255 255 / 0.07);
+  -webkit-backdrop-filter: blur(14px) saturate(140%);
+  backdrop-filter: blur(14px) saturate(140%);
+  border: 1px solid rgb(255 255 255 / 0.13);
+  box-shadow: inset 0 1px 0 rgb(255 255 255 / 0.12);
+}
+
+/* Soft navy and brass light behind the workspace, so glass surfaces have depth. */
+@utility ambient-bg {
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(60rem 28rem at 85% -8%, var(--ambient-1), transparent 70%),
+    radial-gradient(40rem 22rem at -5% 30%, var(--ambient-2), transparent 70%);
+  background-attachment: fixed;
+}
+
+/* Thin gold rule used under section eyebrows and on certificates */
+@utility gold-rule {
+  background-image: linear-gradient(90deg, transparent, var(--gold), transparent);
+  height: 1px;
+}
+
+@utility tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+@utility pressable {
+  transition: transform 0.15s var(--ease-out-soft), background-color 0.15s, box-shadow 0.2s, color 0.15s;
+  &:active {
+    transform: scale(0.97);
+  }
+}
+
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-strong) transparent;
+}
+
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@utility safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@utility safe-top {
+  padding-top: env(safe-area-inset-top);
+}

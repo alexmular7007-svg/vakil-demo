@@ -1,0 +1,120 @@
+// Reference lists for advocate profiles and directory filters. Safe for client and server.
+
+/**
+ * State Bar Councils constituted under the Advocates Act, 1961 (s.3), as listed by the
+ * Bar Council of India. Union territories enrol with the council named for them.
+ */
+export const STATE_BAR_COUNCILS = [
+  "Bar Council of Andhra Pradesh",
+  "Bar Council of Assam, Nagaland, Mizoram, Arunachal Pradesh & Sikkim",
+  "Bar Council of Bihar",
+  "Bar Council of Chhattisgarh",
+  "Bar Council of Delhi",
+  "Bar Council of Gujarat",
+  "Bar Council of Himachal Pradesh",
+  "Bar Council of Jammu & Kashmir and Ladakh",
+  "Bar Council of Jharkhand",
+  "Bar Council of Karnataka",
+  "Bar Council of Kerala",
+  "Bar Council of Madhya Pradesh",
+  "Bar Council of Maharashtra & Goa",
+  "Bar Council of Manipur",
+  "Bar Council of Meghalaya",
+  "Bar Council of Odisha",
+  "Bar Council of Punjab & Haryana",
+  "Bar Council of Rajasthan",
+  "Bar Council of Tamil Nadu & Puducherry",
+  "Bar Council of Telangana",
+  "Bar Council of Tripura",
+  "Bar Council of Uttar Pradesh",
+  "Bar Council of Uttarakhand",
+  "Bar Council of West Bengal",
+] as const;
+
+export const PRACTICE_AREAS = [
+  "Civil",
+  "Criminal",
+  "Family & matrimonial",
+  "Property & real estate",
+  "Consumer",
+  "Cheque bounce (NI Act s.138)",
+  "Labour & employment",
+  "Service matters",
+  "Corporate & commercial",
+  "Insolvency (IBC)",
+  "Banking & recovery (DRT, SARFAESI)",
+  "Arbitration & mediation",
+  "Constitutional & writs",
+  "Direct tax",
+  "GST & indirect tax",
+  "Intellectual property",
+  "Cyber & data protection",
+  "Motor accident claims",
+  "Revenue & land",
+  "Wills & succession",
+  "Environment",
+  "Immigration",
+] as const;
+
+export const LANGUAGES = [
+  "English",
+  "Hindi",
+  "Bengali",
+  "Marathi",
+  "Telugu",
+  "Tamil",
+  "Gujarati",
+  "Urdu",
+  "Kannada",
+  "Odia",
+  "Malayalam",
+  "Punjabi",
+  "Assamese",
+  "Maithili",
+  "Konkani",
+] as const;
+
+export const INDIAN_STATES = [
+  "Andaman & Nicobar Islands",
+  "Andhra Pradesh",
+  "Arunachal Pradesh",
+  "Assam",
+  "Bihar",
+  "Chandigarh",
+  "Chhattisgarh",
+  "Dadra & Nagar Haveli and Daman & Diu",
+  "Delhi",
+  "Goa",
+  "Gujarat",
+  "Haryana",
+  "Himachal Pradesh",
+  "Jammu & Kashmir",
+  "Jharkhand",
+  "Karnataka",
+  "Kerala",
+  "Ladakh",
+  "Lakshadweep",
+  "Madhya Pradesh",
+  "Maharashtra",
+  "Manipur",
+  "Meghalaya",
+  "Mizoram",
+  "Nagaland",
+  "Odisha",
+  "Puducherry",
+  "Punjab",
+  "Rajasthan",
+  "Sikkim",
+  "Tamil Nadu",
+  "Telangana",
+  "Tripura",
+  "Uttar Pradesh",
+  "Uttarakhand",
+  "West Bengal",
+] as const;
+
+export type VerificationStatus = "pending" | "verified" | "rejected";
+
+/** Bar Council of India Rule 36 positioning, shown wherever advocates are listed. */
+export const BCI_RULE_36_NOTICE =
+  "Under Rule 36 of the Bar Council of India Rules, advocates may not solicit work or advertise. This list is information only: it is not ranked, sponsored or rated, nobody pays to appear, and Vaakil AI does not recommend any advocate. Entries appear in alphabetical order and include only advocates who asked to be listed and whose enrolment we checked with the details they gave.";

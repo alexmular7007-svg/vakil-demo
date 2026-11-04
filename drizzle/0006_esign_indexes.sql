@@ -1,0 +1,2 @@
+CREATE INDEX "otp_codes_recipient_id_created_at_index" ON "esign"."otp_codes" USING btree ("recipient_id","created_at");--> statement-breakpoint
+CREATE UNIQUE INDEX "recipients_access_token_hash_uq" ON "esign"."recipients" USING btree ("access_token_hash");

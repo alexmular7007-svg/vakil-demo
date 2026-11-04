@@ -1,0 +1,1190 @@
+{
+ "id": "HMA",
+ "title": "The Hindu Marriage Act, 1955",
+ "shortTitle": "Hindu Marriage Act",
+ "actNo": "Act No. 25 of 1955",
+ "year": 1955,
+ "enactedOn": "1955-05-18",
+ "inForceFrom": "1955-05-18",
+ "repealedOn": null,
+ "replacedBy": null,
+ "replaces": null,
+ "longTitle": "An Act to amend and codify the law relating to marriage among Hindus.",
+ "category": "family",
+ "source": {
+  "name": "India Code (Legislative Department, Ministry of Law and Justice, Government of India)",
+  "url": "https://indiacode.gov.in/handle/123456789/496388",
+  "pdfUrl": "https://indiacode.gov.in/server/api/core/bitstreams/526166d6-239d-4b6c-8999-c776179dea69/content",
+  "method": "India Code section records (DSpace REST API); chapters from the official PDF's arrangement of sections",
+  "retrievedOn": "2026-11-02"
+ },
+ "sourceNote": "Bare act text as consolidated on India Code. Verify against the Gazette of India for legal use.",
+ "chapters": [],
+ "sectionCount": 37,
+ "sections": [
+  {
+   "no": "1",
+   "sortKey": 10,
+   "heading": "Short title and extent",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) This Act may be called the Hindu Marriage Act, 1955.\n\n(2) It extends to the whole of India except the State of Jammu and Kashmir*, and applies also to Hindus domiciled in the territories to which this Act extends who are outside the said territories.",
+   "paragraphs": [
+    {
+     "text": "(1) This Act may be called the Hindu Marriage Act, 1955.",
+     "indent": 1
+    },
+    {
+     "text": "(2) It extends to the whole of India except the State of Jammu and Kashmir*, and applies also to Hindus domiciled in the territories to which this Act extends who are outside the said territories.",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "* . Vide notification No. S.O. 3912(E), dated 30th October, 2019, this Act is made applicable to the Union territory of Jammu and Kashmir and the Union territory of Ladakh."
+   ]
+  },
+  {
+   "no": "2",
+   "sortKey": 20,
+   "heading": "Application of Act",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) This Act applies\n\n(a) to any person who is a Hindu by religion in any of its forms or developments, including a Virashaiva, a Lingayat or a follower of the Brahmo, Prarthana or Arya Samaj,\n\n(b) to any person who is a Buddhist, Jaina or Sikh by religion, and\n\n(c) to any other person domiciled in the territories to which this Act extends who is not a Muslim, Christian, Parsi or Jew by religion, unless it is proved that any such person would not have been governed by the Hindu law or by any custom or usage as part of that law in respect of any of the matters dealt with herein if this Act had not been passed.\n\nExplanation. The following persons are Hindus, Buddhists, Jainas or Sikhs by religion, as the case may be:\n\n(a) any child, legitimate or illegitimate, both of whose parents are Hindus, Buddhists, Jainas or Sikhs by religion;\n\n(b) any child, legitimate or illegitimate, one of whose parents is a Hindu, Buddhist, Jaina or Sikh by religion and who is brought up as a member of the tribe, community, group or family to which such parent belongs or belonged; and\n\n(c) any person who is a convert or re-convert to the Hindu, Buddhist, Jaina or Sikh religion.\n\n(2) Notwithstanding anything contained in sub-section (1), nothing contained in this Act shall apply to the members of any Scheduled tribe within the meaning of clause (25) of article 366 of the Constitution unless the Central Government, by notification in the Official Gazette, otherwise directs.\n\n(3) The expression \"Hindu\" in any portion of this Act shall be construed as if it included a person who, though not a Hindu by religion, is, nevertheless, a person to whom this Act applies by virtue of the provisions contained in this section.",
+   "paragraphs": [
+    {
+     "text": "(1) This Act applies",
+     "indent": 1
+    },
+    {
+     "text": "(a) to any person who is a Hindu by religion in any of its forms or developments, including a Virashaiva, a Lingayat or a follower of the Brahmo, Prarthana or Arya Samaj,",
+     "indent": 2
+    },
+    {
+     "text": "(b) to any person who is a Buddhist, Jaina or Sikh by religion, and",
+     "indent": 2
+    },
+    {
+     "text": "(c) to any other person domiciled in the territories to which this Act extends who is not a Muslim, Christian, Parsi or Jew by religion, unless it is proved that any such person would not have been governed by the Hindu law or by any custom or usage as part of that law in respect of any of the matters dealt with herein if this Act had not been passed.",
+     "indent": 2
+    },
+    {
+     "text": "Explanation. The following persons are Hindus, Buddhists, Jainas or Sikhs by religion, as the case may be:",
+     "indent": 1
+    },
+    {
+     "text": "(a) any child, legitimate or illegitimate, both of whose parents are Hindus, Buddhists, Jainas or Sikhs by religion;",
+     "indent": 2
+    },
+    {
+     "text": "(b) any child, legitimate or illegitimate, one of whose parents is a Hindu, Buddhist, Jaina or Sikh by religion and who is brought up as a member of the tribe, community, group or family to which such parent belongs or belonged; and",
+     "indent": 2
+    },
+    {
+     "text": "(c) any person who is a convert or re-convert to the Hindu, Buddhist, Jaina or Sikh religion.",
+     "indent": 2
+    },
+    {
+     "text": "(2) Notwithstanding anything contained in sub-section (1), nothing contained in this Act shall apply to the members of any Scheduled tribe within the meaning of clause (25) of article 366 of the Constitution unless the Central Government, by notification in the Official Gazette, otherwise directs.",
+     "indent": 1
+    },
+    {
+     "text": "(3) The expression \"Hindu\" in any portion of this Act shall be construed as if it included a person who, though not a Hindu by religion, is, nevertheless, a person to whom this Act applies by virtue of the provisions contained in this section.",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "3",
+   "sortKey": 30,
+   "heading": "Definitions",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "In this Act, unless the context otherwise requires,\n\n(a) the expressions \"custom\" and \"usage\" signify any rule which, having been continuously and uniformly observed for a long time, has obtained the force of law among Hindus in any local area, tribe, community, group or family:\n\nProvided that the rule is certain and not unreasonable or opposed to public policy; and\n\nProvided further that in the case of a rule applicable only to a family it has not been discontinued by the family;\n\n(b) \"district court\" means, in any area for which there is a city civil court, that court, and in any other area the principal civil court of original jurisdiction, and includes any other civil court which may be specified by the State Government, by notification in the Official Gazette, as having jurisdiction in respect of the matters dealt with in this Act;\n\n(c) \"full blood\" and \"half blood\"— two persons are said to be related to each other by full blood when they are descended from a common ancestor by the same wife and by half blood when they are descended from a common ancestor but by different wives;\n\n(d) \"uterine blood\"—two persons are said to be related to each other by uterine blood when they are descended from a common ancestress but by different husbands;\n\nExplanation. —In clauses (c) and (d), \"ancestor\" includes the father and \"ancestress\" the mother;\n\n(e) \"prescribed\" means prescribed by rules made under this Act;\n\n(f) (i) \"sapinda relationship\" with reference to any person extends as far as the third generation (inclusive) in the line of ascent through the mother, and the fifth (inclusive) in the line of ascent through the father, the line being traced upwards in each case from the person concerned, who is to be counted as the first generation;\n\n(ii) two persons are said to be sapindas of each other if one is a lineal ascendant of the other within the limits of sapinda relationship, or if they have a common lineal ascendant who is within the limits of sapinda relationship with reference to each of them;\n\n(g) \"degrees of prohibited relationship\"two persons are said to be within the \"degrees of prohibited relationship\"\n\n(i) if one is a lineal ascendant of the other; or\n\n(ii) if one was the wife or husband of a lineal ascendant or descendant of the other; or\n\n(iii) if one was the wife of the brother or of the father's or mother's brother or of the grandfather's or grandmother's brother of the other; or\n\n(iv) if the two are brother and sister, uncle and niece, aunt and nephew, or children of brother and sister or of two brothers or of two sisters;\n\nExplanation. —For the purposes of clauses (f) and (g), relationship includes—\n\n(i) relationship by half or uterine blood as well as by full blood;\n\n(ii) illegitimate blood relationship as well as legitimate;\n\n(iii) relationship by adoption as well as by blood;\n\nand all terms of relationship in those clauses shall be construed accordingly",
+   "paragraphs": [
+    {
+     "text": "In this Act, unless the context otherwise requires,",
+     "indent": 0
+    },
+    {
+     "text": "(a) the expressions \"custom\" and \"usage\" signify any rule which, having been continuously and uniformly observed for a long time, has obtained the force of law among Hindus in any local area, tribe, community, group or family:",
+     "indent": 1
+    },
+    {
+     "text": "Provided that the rule is certain and not unreasonable or opposed to public policy; and",
+     "indent": 0
+    },
+    {
+     "text": "Provided further that in the case of a rule applicable only to a family it has not been discontinued by the family;",
+     "indent": 0
+    },
+    {
+     "text": "(b) \"district court\" means, in any area for which there is a city civil court, that court, and in any other area the principal civil court of original jurisdiction, and includes any other civil court which may be specified by the State Government, by notification in the Official Gazette, as having jurisdiction in respect of the matters dealt with in this Act;",
+     "indent": 1
+    },
+    {
+     "text": "(c) \"full blood\" and \"half blood\"— two persons are said to be related to each other by full blood when they are descended from a common ancestor by the same wife and by half blood when they are descended from a common ancestor but by different wives;",
+     "indent": 1
+    },
+    {
+     "text": "(d) \"uterine blood\"—two persons are said to be related to each other by uterine blood when they are descended from a common ancestress but by different husbands;",
+     "indent": 1
+    },
+    {
+     "text": "Explanation. —In clauses (c) and (d), \"ancestor\" includes the father and \"ancestress\" the mother;",
+     "indent": 0
+    },
+    {
+     "text": "(e) \"prescribed\" means prescribed by rules made under this Act;",
+     "indent": 1
+    },
+    {
+     "text": "(f) (i) \"sapinda relationship\" with reference to any person extends as far as the third generation (inclusive) in the line of ascent through the mother, and the fifth (inclusive) in the line of ascent through the father, the line being traced upwards in each case from the person concerned, who is to be counted as the first generation;",
+     "indent": 1
+    },
+    {
+     "text": "(ii) two persons are said to be sapindas of each other if one is a lineal ascendant of the other within the limits of sapinda relationship, or if they have a common lineal ascendant who is within the limits of sapinda relationship with reference to each of them;",
+     "indent": 1
+    },
+    {
+     "text": "(g) \"degrees of prohibited relationship\"two persons are said to be within the \"degrees of prohibited relationship\"",
+     "indent": 1
+    },
+    {
+     "text": "(i) if one is a lineal ascendant of the other; or",
+     "indent": 2
+    },
+    {
+     "text": "(ii) if one was the wife or husband of a lineal ascendant or descendant of the other; or",
+     "indent": 2
+    },
+    {
+     "text": "(iii) if one was the wife of the brother or of the father's or mother's brother or of the grandfather's or grandmother's brother of the other; or",
+     "indent": 2
+    },
+    {
+     "text": "(iv) if the two are brother and sister, uncle and niece, aunt and nephew, or children of brother and sister or of two brothers or of two sisters;",
+     "indent": 2
+    },
+    {
+     "text": "Explanation. —For the purposes of clauses (f) and (g), relationship includes—",
+     "indent": 0
+    },
+    {
+     "text": "(i) relationship by half or uterine blood as well as by full blood;",
+     "indent": 3
+    },
+    {
+     "text": "(ii) illegitimate blood relationship as well as legitimate;",
+     "indent": 3
+    },
+    {
+     "text": "(iii) relationship by adoption as well as by blood;",
+     "indent": 3
+    },
+    {
+     "text": "and all terms of relationship in those clauses shall be construed accordingly",
+     "indent": 3
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "4",
+   "sortKey": 40,
+   "heading": "Overriding effect of Act",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "Save as otherwise expressly provided in this Act,—\n\n(a) any text rule or interpretation of Hindu law or any custom or usage as part of that law in force immediately before the commencement of this Act shall cease to have effect with respect to any matter for which provision is made in this Act;\n\n(b) any other law in force immediately before the commencement of this Act shall cease to have effect in so far as it is inconsistent with any of the provisions contained in this Act.",
+   "paragraphs": [
+    {
+     "text": "Save as otherwise expressly provided in this Act,—",
+     "indent": 0
+    },
+    {
+     "text": "(a) any text rule or interpretation of Hindu law or any custom or usage as part of that law in force immediately before the commencement of this Act shall cease to have effect with respect to any matter for which provision is made in this Act;",
+     "indent": 1
+    },
+    {
+     "text": "(b) any other law in force immediately before the commencement of this Act shall cease to have effect in so far as it is inconsistent with any of the provisions contained in this Act.",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "5",
+   "sortKey": 50,
+   "heading": "Conditions for a Hindu marriage",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "A marriage may be solemnized between any two Hindus, if the following conditions are fulfilled, namely:\n\n(i) neither party has a spouse living at the time of the marriage;\n\n¹[(ii) at the time of the marriage, neither party\n\n(a) is incapable of giving a valid consent to it in consequence of unsoundness of mind; or\n\n(b) though capable of giving a valid consent, has been suffering from mental disorder of such a kind or to such an extent as to be unfit for marriage and the procreation of children; or\n\n(c) has been subject to recurrent attacks of insanity ² ***];\n\n(iii) the bridegroom has completed the age of ³[twenty-one years] and the bride, the age of ⁴[eighteen years] at the time of the marriage;\n\n(iv) the parties are not within the degrees of prohibited relationship unless the custom or usage governing each of them permits of a marriage between the two;\n\n(v) the parties are not sapindas of each other, unless the custom or usage governing each of them permits of a marriage between the two;\n\n⁴ * * * * *",
+   "paragraphs": [
+    {
+     "text": "A marriage may be solemnized between any two Hindus, if the following conditions are fulfilled, namely:",
+     "indent": 0
+    },
+    {
+     "text": "(i) neither party has a spouse living at the time of the marriage;",
+     "indent": 1
+    },
+    {
+     "text": "¹[(ii) at the time of the marriage, neither party",
+     "indent": 1
+    },
+    {
+     "text": "(a) is incapable of giving a valid consent to it in consequence of unsoundness of mind; or",
+     "indent": 4
+    },
+    {
+     "text": "(b) though capable of giving a valid consent, has been suffering from mental disorder of such a kind or to such an extent as to be unfit for marriage and the procreation of children; or",
+     "indent": 4
+    },
+    {
+     "text": "(c) has been subject to recurrent attacks of insanity ² ***];",
+     "indent": 4
+    },
+    {
+     "text": "(iii) the bridegroom has completed the age of ³[twenty-one years] and the bride, the age of ⁴[eighteen years] at the time of the marriage;",
+     "indent": 1
+    },
+    {
+     "text": "(iv) the parties are not within the degrees of prohibited relationship unless the custom or usage governing each of them permits of a marriage between the two;",
+     "indent": 1
+    },
+    {
+     "text": "(v) the parties are not sapindas of each other, unless the custom or usage governing each of them permits of a marriage between the two;",
+     "indent": 1
+    },
+    {
+     "text": "⁴ * * * * *",
+     "indent": 49
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 2, for clause (ii) (w.e.f. 27-5-1976). 2 . The words or epilepsy omitted by Act 39 of 1999, s. 2 (w.e.f. 29-12-1999). 3 . Subs. by Act 2 of 1978, s. 6 and Schedule for elighteen years (w.e.f. 1-10-1978). 4 . Subs. by s. 6 and Schedule, ibid ., for fifteen years (w.e.f. 1-10-1978). 5 . Clause (vi) omitted by s. 6 and Schedule, ibid . (w.e.f. 1-10-1978)."
+   ]
+  },
+  {
+   "no": "6",
+   "sortKey": 60,
+   "heading": "[Omitted]",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "[ Guardianship in marriage. Omitted by the Child Marriage Restraint ( Amendment ) Act, 1978, (2 of 1978), s . 6 and Schedule ( w.e.f . 1-10-1978).",
+   "paragraphs": [
+    {
+     "text": "[ Guardianship in marriage. Omitted by the Child Marriage Restraint ( Amendment ) Act, 1978, (2 of 1978), s . 6 and Schedule ( w.e.f . 1-10-1978).",
+     "indent": 0
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "7",
+   "sortKey": 70,
+   "heading": "Ceremonies for a Hindu marriage",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) A Hindu marriage may be solemnized in accordance with the customary rites and ceremonies of either party thereto.\n\n(2) Where such rites and ceremonies include the Saptapadi (that is, the taking of seven steps by the bridegroom and the bride jointly before the sacred fire), the marriage becomes complete and binding when the seventh step is taken.",
+   "paragraphs": [
+    {
+     "text": "(1) A Hindu marriage may be solemnized in accordance with the customary rites and ceremonies of either party thereto.",
+     "indent": 1
+    },
+    {
+     "text": "(2) Where such rites and ceremonies include the Saptapadi (that is, the taking of seven steps by the bridegroom and the bride jointly before the sacred fire), the marriage becomes complete and binding when the seventh step is taken.",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "8",
+   "sortKey": 80,
+   "heading": "Registration of Hindu marriages",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) For the purpose of facilitating the proof of Hindu marriages, the State Government may make rules providing that the parties to any such marriage may have the particulars relating to their marriage entered in such manner and subject to such conditions as may be prescribed in a Hindu Marriage Register kept for the purpose.\n\n(2) Notwithstanding anything contained in sub-section (1), the State Government may, if it is of opinion that it is necessary or expedient so to do, provide that the entering of the particulars referred to in sub-section (1) shall be compulsory in the State or in any part thereof, whether in all cases or in such cases as may be specified, and where any such direction has been issued, any person contravening any rule made in this behalf shall be punishable with fine which may extend to twenty-five rupees.\n\n(3) All rules made under this section shall be laid before the State Legislature, as soon as may be, after they are made.\n\n(4) The Hindu Marriage Register shall at all reasonable times be open for inspection, and shall be admissible as evidence of the statements therein contained and certified extracts therefrom shall, on application, be given by the Registrar on payment to him of the prescribed fee.\n\n(5) Notwithstanding anything contained in this section, the validity of any Hindu marriage shall in no way be affected by the omission to make the entry.",
+   "paragraphs": [
+    {
+     "text": "(1) For the purpose of facilitating the proof of Hindu marriages, the State Government may make rules providing that the parties to any such marriage may have the particulars relating to their marriage entered in such manner and subject to such conditions as may be prescribed in a Hindu Marriage Register kept for the purpose.",
+     "indent": 1
+    },
+    {
+     "text": "(2) Notwithstanding anything contained in sub-section (1), the State Government may, if it is of opinion that it is necessary or expedient so to do, provide that the entering of the particulars referred to in sub-section (1) shall be compulsory in the State or in any part thereof, whether in all cases or in such cases as may be specified, and where any such direction has been issued, any person contravening any rule made in this behalf shall be punishable with fine which may extend to twenty-five rupees.",
+     "indent": 1
+    },
+    {
+     "text": "(3) All rules made under this section shall be laid before the State Legislature, as soon as may be, after they are made.",
+     "indent": 1
+    },
+    {
+     "text": "(4) The Hindu Marriage Register shall at all reasonable times be open for inspection, and shall be admissible as evidence of the statements therein contained and certified extracts therefrom shall, on application, be given by the Registrar on payment to him of the prescribed fee.",
+     "indent": 1
+    },
+    {
+     "text": "(5) Notwithstanding anything contained in this section, the validity of any Hindu marriage shall in no way be affected by the omission to make the entry.",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "9",
+   "sortKey": 90,
+   "heading": "Restitution of conjugal right",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹ ** * When either the husband or the wife has, without reasonable excuse, withdrawn from the society of the other, the aggrieved party may apply, by petition to the district court, for restitution of conjugal rights and the court, on being satisfied of the truth of the statements made in such petition and that there is no legal ground why the application should not be granted, may decree restitution of conjugal rights accordingly.\n\n²[ Explanation .—Where a question arises whether there has been reasonable excuse for withdrawal from the society, the burden of proving reasonable excuse shall be on the person who has withdrawn from the society.]\n\n³ * * * * *",
+   "paragraphs": [
+    {
+     "text": "¹ ** * When either the husband or the wife has, without reasonable excuse, withdrawn from the society of the other, the aggrieved party may apply, by petition to the district court, for restitution of conjugal rights and the court, on being satisfied of the truth of the statements made in such petition and that there is no legal ground why the application should not be granted, may decree restitution of conjugal rights accordingly.",
+     "indent": 1
+    },
+    {
+     "text": "²[ Explanation .—Where a question arises whether there has been reasonable excuse for withdrawal from the society, the burden of proving reasonable excuse shall be on the person who has withdrawn from the society.]",
+     "indent": 1
+    },
+    {
+     "text": "³ * * * * *",
+     "indent": 48
+    }
+   ],
+   "footnotes": [
+    "The brackets and figure (1) omitted by Act 68 of 1976, s. 3 (w.e.f. 27-5-1976). 2 . Ins. by s. 3, ibid . (w.e.f. 27-5-1976). 3 . Sub-section (2) omitted by s. 3, ibid . (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "10",
+   "sortKey": 100,
+   "heading": "Judicial separation",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹[(1) Either party to a marriage, whether solemnised before or after the commencement of this Act, may present a petition praying for a decree for judicial separation on any of the grounds specified in sub-section (1) of section 13, and in the case of a wife also on any of the grounds specified in sub-section (2) thereof, as grounds on which a petition for divorce might have been presented.]\n\n(2) Where a decree for judicial separation has been passed, it shall no longer be obligatory for the petitioner to cohabit with the respondent, but the court may, on the application by petition of either party and on being satisfied of the truth of the statements made in such petition, rescind the decree if it considers it just and reasonable to do so.",
+   "paragraphs": [
+    {
+     "text": "¹[(1) Either party to a marriage, whether solemnised before or after the commencement of this Act, may present a petition praying for a decree for judicial separation on any of the grounds specified in sub-section (1) of section 13, and in the case of a wife also on any of the grounds specified in sub-section (2) thereof, as grounds on which a petition for divorce might have been presented.]",
+     "indent": 1
+    },
+    {
+     "text": "(2) Where a decree for judicial separation has been passed, it shall no longer be obligatory for the petitioner to cohabit with the respondent, but the court may, on the application by petition of either party and on being satisfied of the truth of the statements made in such petition, rescind the decree if it considers it just and reasonable to do so.",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 4, for sub-section (1) (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "11",
+   "sortKey": 110,
+   "heading": "Void marriages",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "Any marriage solemnised after the commencement of this Act shall be null and void and may, on a petition presented by either party thereto ¹[against the other party], be so declared by a decree of nullity if it contravenes any one of the conditions specified in clauses (i), (iv) and (v) of section 5.",
+   "paragraphs": [
+    {
+     "text": "Any marriage solemnised after the commencement of this Act shall be null and void and may, on a petition presented by either party thereto ¹[against the other party], be so declared by a decree of nullity if it contravenes any one of the conditions specified in clauses (i), (iv) and (v) of section 5.",
+     "indent": 0
+    }
+   ],
+   "footnotes": [
+    "Ins. by s. 5, ibid . (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "12",
+   "sortKey": 120,
+   "heading": "Voidable marriages",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) Any marriage solemnised, whether before or after the commencement of this Act, shall be voidable and may be annulled by a decree of nullity on any of the following grounds, namely:\n\n¹[(a) that the marriage has not been consummated owing to the imporence of the respondent; or]\n\n(b) that the marriage is in contravention of the condition specified in clause (ii) of section 5; or\n\n(c) that the consent of the petitioner, or where the consent of the guardian in marriage of the petitioner ²[was required under section 5 as it stood immediately before the commencement of the Child Marriage Restraint (Amendment) Act, 1978 (2 of 1978)], the consent of such guardian was obtained by force ³[or by fraud as to the nature of the ceremony or as to any material fact or circumstances concerning the respondent]; or\n\n(d) that the respondent was at the time of the marriage pregnant by some person other than the petitioner.\n\n(2) Notwithstanding anything contained in sub-section (1), no petition for annulling a marriage\n\n(a) on the ground specified in clause (c) of sub-section (1) shall be entertained if\n\n(i) the petition is presented more than one year after the force had ceased to operate or, as the case may be, the fraud had been discovered; or\n\n(ii) the petitioner has, with his or her full consent, lived with the other party to the marriage as husband or wife after the force had ceased to operate or, as the case may be, the fraud had been discovered;\n\n(b) on the ground specified in clause (d) of sub-section (1) shall be entertained unless the court is satisfied\n\n(i) that the petitioner was at the time of the marriage ignorant of the facts alleged;\n\n(ii) that proceedings have been instituted in the case of a marriage solemnised before the commencement of this Act within one year of such commencement and in the case of marriages solemnised after such commencement within one year from the date of the marriage; and\n\n(iii) that marital intercourse with the consent of the petitioner has not taken place since the discovery by the petitioner of the existence of ⁴[the said ground].",
+   "paragraphs": [
+    {
+     "text": "(1) Any marriage solemnised, whether before or after the commencement of this Act, shall be voidable and may be annulled by a decree of nullity on any of the following grounds, namely:",
+     "indent": 0
+    },
+    {
+     "text": "¹[(a) that the marriage has not been consummated owing to the imporence of the respondent; or]",
+     "indent": 1
+    },
+    {
+     "text": "(b) that the marriage is in contravention of the condition specified in clause (ii) of section 5; or",
+     "indent": 1
+    },
+    {
+     "text": "(c) that the consent of the petitioner, or where the consent of the guardian in marriage of the petitioner ²[was required under section 5 as it stood immediately before the commencement of the Child Marriage Restraint (Amendment) Act, 1978 (2 of 1978)], the consent of such guardian was obtained by force ³[or by fraud as to the nature of the ceremony or as to any material fact or circumstances concerning the respondent]; or",
+     "indent": 1
+    },
+    {
+     "text": "(d) that the respondent was at the time of the marriage pregnant by some person other than the petitioner.",
+     "indent": 1
+    },
+    {
+     "text": "(2) Notwithstanding anything contained in sub-section (1), no petition for annulling a marriage",
+     "indent": 0
+    },
+    {
+     "text": "(a) on the ground specified in clause (c) of sub-section (1) shall be entertained if",
+     "indent": 2
+    },
+    {
+     "text": "(i) the petition is presented more than one year after the force had ceased to operate or, as the case may be, the fraud had been discovered; or",
+     "indent": 3
+    },
+    {
+     "text": "(ii) the petitioner has, with his or her full consent, lived with the other party to the marriage as husband or wife after the force had ceased to operate or, as the case may be, the fraud had been discovered;",
+     "indent": 3
+    },
+    {
+     "text": "(b) on the ground specified in clause (d) of sub-section (1) shall be entertained unless the court is satisfied",
+     "indent": 2
+    },
+    {
+     "text": "(i) that the petitioner was at the time of the marriage ignorant of the facts alleged;",
+     "indent": 4
+    },
+    {
+     "text": "(ii) that proceedings have been instituted in the case of a marriage solemnised before the commencement of this Act within one year of such commencement and in the case of marriages solemnised after such commencement within one year from the date of the marriage; and",
+     "indent": 4
+    },
+    {
+     "text": "(iii) that marital intercourse with the consent of the petitioner has not taken place since the discovery by the petitioner of the existence of ⁴[the said ground].",
+     "indent": 4
+    }
+   ],
+   "footnotes": [
+    "Subs. by s. 6, ibid., for clause (a) (w.e.f. 27-5-1976). 2 . Subs. by Act 2 of 1978, s. 6 and Schedule, for is required under section 5 (w.e.f. 1-10-1978). 3 . Subs. by Act 68 of 1976, s. 6, for or fraud (w.e.f. 27-5-1976). 4 . Subs. by s. 6, ibid ., for the grounds for a decree (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "13",
+   "sortKey": 130,
+   "heading": "Divorce",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) Any marriage solemnized, whether before or after the commencement of this Act, may, on a petition presented by either the husband or the wife, be dissolved by a decree of divorce on the ground that the other party—\n\n¹[(i) has, after the solemnization of the marriage, had voluntary sexual intercourse with any person other than his or her spouse; or\n\n(ia) has, after the solemnization of the marriage, treated the petitioner with cruelty; or\n\n(ib) has deserted the petitioner for a continuous period of not less than two years immediately preceding the presentation of the petition; or]\n\n(ii) has ceased to be a Hindu by conversion to another religion; or\n\n²[(iii) has been incurably of unsound mind, or has been suffering continuously or intermittently from mental disorder of such a kind and to such an extent that the petitioner cannot reasonably be expected to live with the respondent.\n\nExplanation .—In this clause,—\n\n(a) the expression mental disorder means mental illness, arrested or incomplete development of mind, psychopathic disorder or any other disorder or disability of mind and includes schizophrenia;\n\n(b) the expression psychopathic disorder means a persistent disorder or disability of mind (whether or not including subnormality of intelligence) which results in abnormally aggressive or seriously irresponsible conduct on the part of the other party, and whether or not it requires or is susceptible to medical treatment; or]\n\n³* * * * *\n\n(v) has ³* * * been suffering from venereal disease in a communicable form; or\n\n(vi) has renounced the world by entering any religious order; or\n\n(vii) has not been heard of as being alive for a period of seven years or more by those persons who would naturally have heard of it, had that party been alive; ⁴***\n\n⁵* * * *\n\n⁶[ Explanation .In this sub-section, the expression desertion means the desertion of the petitioner by the other party to the marriage without reasonable cause and without the consent or against the wish of such party, and includes the wilful neglect of the petitioner by the other party to the marriage, and its grammatical variations and cognate expressions shall be construed accordingly.]\n\n⁷[(1A) Either party to a marriage, whether solemnized before or after the commencement of this Act, may also present a petition for the dissolution of the marriage by a decree of divorce on the ground\n\n(i) that there has been no resumption of cohabitation as between the parties to the marriage for a period of ⁸[one year] or upwards after the passing of a decree for judicial separation in a proceeding to which they were parties; or\n\n(ii) that there has been no restitution of conjugal rights as between the parties to the marriage for a period of ⁸[one year] or upwards after the passing of a decree for restitution of conjugal rights in a proceeding to which they were parties.]\n\n(2) A wife may also present a petition for the dissolution of her marriage by a decree of divorce on the ground,—\n\n(i) in the case of any marriage solemnized before the commencement of this Act, that the husband had married again before such commencement or that any other wife of the husband married before such commencement was alive at the time of the solemnization of the marriage of the petitioner:\n\nProvided that in either case the other wife is alive at the time of the presentation of the petition; or\n\n(ii) that the husband has, since the solemnization of the marriage, been guilty of rape, sodomy or ⁹[bestiality; or]\n\n¹⁰[(iii) that in a suit under section 18 of the Hindu Adoptions and Maintenance Act, 1956 (78 of 1956), or in a proceeding under section 125 of the Code of Criminal Procedure, 1973 (2 of 1974) (or under the corresponding section 488 of the Code of Criminal Procedure, 1898 (5 of 1898), a decree or order, as the case may be, has been passed against the husband awarding maintenance to the wife notwithstanding that she was living apart and that since the passing of such decree or order, cohabitation between the parties has not been resumed for one year or upwards;\n\n(iv) that her marriage (whether consummated or not) was solemnized before she attained the age of fifteen years and she has repudiated the marriage after attaining that age but before attaining the age of eighteen years.\n\nExplanation .This clause applies whether the marriage was solemnized before or after the commencement of the Marriage Laws (Amendment) Act, 1976 (68 of 1976).]\n\nSTATE AMENDMENT\n\nUttar Pradesh.—\n\nAmendment of section 13 of Act XXV of 1955.— In sub-section (1) of section 13 of the Hindu Marriage Act, 1955,—\n\n(a) after clause (i) the following new cause shall be inserted and shall be deemed always to have been inserted;\n\n\"(i-a) has persistently or repeatedly treated the petitioner with such cruelty as to cause a reasonable apprehension in the mind of the petitioner that it will be harmful or injurious for the petitioner to live with the other party;or\", and\n\n(b) for clause (vii), the following clause shall be substituted and shall be deemed always to have been substituted;\n\n\"(viii) has not resumed cohabitation after the passing of a decree for judicial separation against that party and—\n\n(a) a period of two years has elapsed since the passing of such decree, or\n\n(b) the case is one of exceptional hardship to the petitioner or of exceptional depravity on the part of the other party; or\".\n\n[ Vide Uttar Pradesh Act XIII of 1962, s. 2]",
+   "paragraphs": [
+    {
+     "text": "(1) Any marriage solemnized, whether before or after the commencement of this Act, may, on a petition presented by either the husband or the wife, be dissolved by a decree of divorce on the ground that the other party—",
+     "indent": 0
+    },
+    {
+     "text": "¹[(i) has, after the solemnization of the marriage, had voluntary sexual intercourse with any person other than his or her spouse; or",
+     "indent": 2
+    },
+    {
+     "text": "(ia) has, after the solemnization of the marriage, treated the petitioner with cruelty; or",
+     "indent": 2
+    },
+    {
+     "text": "(ib) has deserted the petitioner for a continuous period of not less than two years immediately preceding the presentation of the petition; or]",
+     "indent": 2
+    },
+    {
+     "text": "(ii) has ceased to be a Hindu by conversion to another religion; or",
+     "indent": 2
+    },
+    {
+     "text": "²[(iii) has been incurably of unsound mind, or has been suffering continuously or intermittently from mental disorder of such a kind and to such an extent that the petitioner cannot reasonably be expected to live with the respondent.",
+     "indent": 1
+    },
+    {
+     "text": "Explanation .—In this clause,—",
+     "indent": 0
+    },
+    {
+     "text": "(a) the expression mental disorder means mental illness, arrested or incomplete development of mind, psychopathic disorder or any other disorder or disability of mind and includes schizophrenia;",
+     "indent": 4
+    },
+    {
+     "text": "(b) the expression psychopathic disorder means a persistent disorder or disability of mind (whether or not including subnormality of intelligence) which results in abnormally aggressive or seriously irresponsible conduct on the part of the other party, and whether or not it requires or is susceptible to medical treatment; or]",
+     "indent": 4
+    },
+    {
+     "text": "³* * * * *",
+     "indent": 31
+    },
+    {
+     "text": "(v) has ³* * * been suffering from venereal disease in a communicable form; or",
+     "indent": 1
+    },
+    {
+     "text": "(vi) has renounced the world by entering any religious order; or",
+     "indent": 1
+    },
+    {
+     "text": "(vii) has not been heard of as being alive for a period of seven years or more by those persons who would naturally have heard of it, had that party been alive; ⁴***",
+     "indent": 1
+    },
+    {
+     "text": "⁵* * * *",
+     "indent": 36
+    },
+    {
+     "text": "⁶[ Explanation .In this sub-section, the expression desertion means the desertion of the petitioner by the other party to the marriage without reasonable cause and without the consent or against the wish of such party, and includes the wilful neglect of the petitioner by the other party to the marriage, and its grammatical variations and cognate expressions shall be construed accordingly.]",
+     "indent": 0
+    },
+    {
+     "text": "⁷[(1A) Either party to a marriage, whether solemnized before or after the commencement of this Act, may also present a petition for the dissolution of the marriage by a decree of divorce on the ground",
+     "indent": 0
+    },
+    {
+     "text": "(i) that there has been no resumption of cohabitation as between the parties to the marriage for a period of ⁸[one year] or upwards after the passing of a decree for judicial separation in a proceeding to which they were parties; or",
+     "indent": 2
+    },
+    {
+     "text": "(ii) that there has been no restitution of conjugal rights as between the parties to the marriage for a period of ⁸[one year] or upwards after the passing of a decree for restitution of conjugal rights in a proceeding to which they were parties.]",
+     "indent": 2
+    },
+    {
+     "text": "(2) A wife may also present a petition for the dissolution of her marriage by a decree of divorce on the ground,—",
+     "indent": 0
+    },
+    {
+     "text": "(i) in the case of any marriage solemnized before the commencement of this Act, that the husband had married again before such commencement or that any other wife of the husband married before such commencement was alive at the time of the solemnization of the marriage of the petitioner:",
+     "indent": 3
+    },
+    {
+     "text": "Provided that in either case the other wife is alive at the time of the presentation of the petition; or",
+     "indent": 3
+    },
+    {
+     "text": "(ii) that the husband has, since the solemnization of the marriage, been guilty of rape, sodomy or ⁹[bestiality; or]",
+     "indent": 3
+    },
+    {
+     "text": "¹⁰[(iii) that in a suit under section 18 of the Hindu Adoptions and Maintenance Act, 1956 (78 of 1956), or in a proceeding under section 125 of the Code of Criminal Procedure, 1973 (2 of 1974) (or under the corresponding section 488 of the Code of Criminal Procedure, 1898 (5 of 1898), a decree or order, as the case may be, has been passed against the husband awarding maintenance to the wife notwithstanding that she was living apart and that since the passing of such decree or order, cohabitation between the parties has not been resumed for one year or upwards;",
+     "indent": 3
+    },
+    {
+     "text": "(iv) that her marriage (whether consummated or not) was solemnized before she attained the age of fifteen years and she has repudiated the marriage after attaining that age but before attaining the age of eighteen years.",
+     "indent": 3
+    },
+    {
+     "text": "Explanation .This clause applies whether the marriage was solemnized before or after the commencement of the Marriage Laws (Amendment) Act, 1976 (68 of 1976).]",
+     "indent": 1
+    },
+    {
+     "text": "STATE AMENDMENT",
+     "indent": 12
+    },
+    {
+     "text": "Uttar Pradesh.—",
+     "indent": 1
+    },
+    {
+     "text": "Amendment of section 13 of Act XXV of 1955.— In sub-section (1) of section 13 of the Hindu Marriage Act, 1955,—",
+     "indent": 0
+    },
+    {
+     "text": "(a) after clause (i) the following new cause shall be inserted and shall be deemed always to have been inserted;",
+     "indent": 0
+    },
+    {
+     "text": "\"(i-a) has persistently or repeatedly treated the petitioner with such cruelty as to cause a reasonable apprehension in the mind of the petitioner that it will be harmful or injurious for the petitioner to live with the other party;or\", and",
+     "indent": 1
+    },
+    {
+     "text": "(b) for clause (vii), the following clause shall be substituted and shall be deemed always to have been substituted;",
+     "indent": 1
+    },
+    {
+     "text": "\"(viii) has not resumed cohabitation after the passing of a decree for judicial separation against that party and—",
+     "indent": 2
+    },
+    {
+     "text": "(a) a period of two years has elapsed since the passing of such decree, or",
+     "indent": 1
+    },
+    {
+     "text": "(b) the case is one of exceptional hardship to the petitioner or of exceptional depravity on the part of the other party; or\".",
+     "indent": 1
+    },
+    {
+     "text": "[ Vide Uttar Pradesh Act XIII of 1962, s. 2]",
+     "indent": 0
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 7, for clause (i) (w.e.f. 27-5-1976).",
+    "Subs. by s. 7, ibid ., for clause (iii) (w.e.f. 27-5-1976).",
+    "Clause (iv) omitted by Act 6 of 2019, s. 5 (w.e.f. 1-3-2019).",
+    "The word or omitted by Act 44 of 1964, s. 2, ibid . (w.e.f. 20-12-1964).",
+    "Clauses (viii) and (ix) omitted by s. 2, ibid . (w.e.f. 20-12-1964).",
+    "Ins. by Act 68 of 1976, s. 7 (w.e.f. 27-5-1976).",
+    "Ins. by Act 44 of 1964, s. 2 (w.e.f. 20-12-1964).",
+    "Subs. by Act 68 of 1976, s. 7, for two years (w.e.f. 27-5-1976).",
+    "Subs. by Act 68 of 1976, s. 7, for bestiality (w.e.f. 27-5-1976).",
+    "Ins. by s. 7, ibid . (w.e.f. 27-5-2976)."
+   ]
+  },
+  {
+   "no": "13A",
+   "sortKey": 140,
+   "heading": "Alternate relief in divorce proceedings",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹[ 13A. Alternate relief in divorce proceedings .—In any proceeding under this Act, on a petition for dissolution of marriage by a decree of divorce, except in so far as the petition is founded on the grounds mentioned in clauses (ii), (vi) and (vii) of sub-section (1) of section 13, the court may, if it considers it just so to do having regard to the circumstances of the case, pass instead a decree for judicial separation.",
+   "paragraphs": [
+    {
+     "text": "¹[ 13A. Alternate relief in divorce proceedings .—In any proceeding under this Act, on a petition for dissolution of marriage by a decree of divorce, except in so far as the petition is founded on the grounds mentioned in clauses (ii), (vi) and (vii) of sub-section (1) of section 13, the court may, if it considers it just so to do having regard to the circumstances of the case, pass instead a decree for judicial separation.",
+     "indent": 0
+    }
+   ],
+   "footnotes": [
+    "Ins. by Act 68 of 1976, s. 8 (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "13B",
+   "sortKey": 150,
+   "heading": "Divorce by mutual consent",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) Subject to the provisions of this Act a petition for dissolution of marriage by a decree of divorce may be presented to the district court by both the parties to a marriage together, whether such marriage was solemnized before or after the commencement of the Marriage Laws (Amendment) Act, 1976 (68 of 1976), on the ground that they have been living separately for a period of one year or more, that they have not been able to live together and that they have mutually agreed that the marriage should be dissolved.\n\n(2) On the motion of both the parties made not earlier than six months after the date of the presentation of the petition referred to in sub-section (1) and not later than eighteen months after the said date, if the petition is not withdrawn in the meantime, the court shall, on being satisfied, after hearing the parties and after making such inquiry as it thinks fit, that a marriage has been solemnized and that the averments in the petition are true, pass a decree of divorce declaring the marriage to be dissolved with effect from the date of the decree.]",
+   "paragraphs": [
+    {
+     "text": "(1) Subject to the provisions of this Act a petition for dissolution of marriage by a decree of divorce may be presented to the district court by both the parties to a marriage together, whether such marriage was solemnized before or after the commencement of the Marriage Laws (Amendment) Act, 1976 (68 of 1976), on the ground that they have been living separately for a period of one year or more, that they have not been able to live together and that they have mutually agreed that the marriage should be dissolved.",
+     "indent": 1
+    },
+    {
+     "text": "(2) On the motion of both the parties made not earlier than six months after the date of the presentation of the petition referred to in sub-section (1) and not later than eighteen months after the said date, if the petition is not withdrawn in the meantime, the court shall, on being satisfied, after hearing the parties and after making such inquiry as it thinks fit, that a marriage has been solemnized and that the averments in the petition are true, pass a decree of divorce declaring the marriage to be dissolved with effect from the date of the decree.]",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "14",
+   "sortKey": 160,
+   "heading": "No petition for divorce to be presented within one year of marriage",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) Notwithstanding anything contained in this Act, it shall not be competent for any court to entertain any petition for dissolution of a marriage by a decree of divorce, ¹[unless at the date of the presentation of the petition one one year has elapsed] since the date of the marriage:\n\nProvided that the court may, upon application made to it in accordance with such rules as may be made by the High Court in that behalf, allow a petition to be presented ¹[before one year has elapsed] since the date of the marriage on the ground that the case is one of exceptional hardship to the petitioner or of exceptional depravity on the part of the respondent, but if it appears to the court at the hearing of the petition that the petitioner obtained leave to present the petition by any misrepresentation or concealment of the nature of the case, the court may, if it pronounces a decree, do so subject to the condition that the decree shall not have effect until after the ²[expiry of one year] from the date of the marriage or may dismiss the petition without prejudice to any petition which may be brought after ³[expiration of the said one year] upon the same or substantially the same facts as those alleged in support of the petition so dismissed.\n\n(2) In disposing of any application under this section for leave to present a petition for divorce before the ⁴[expiration of one year] from the date of the marriage, the court shall have regard to the interests of any children of the marriage and to the question whether there is a reasonable probability of a reconciliation between the parties before the expiration of the ⁵[said one year].",
+   "paragraphs": [
+    {
+     "text": "(1) Notwithstanding anything contained in this Act, it shall not be competent for any court to entertain any petition for dissolution of a marriage by a decree of divorce, ¹[unless at the date of the presentation of the petition one one year has elapsed] since the date of the marriage:",
+     "indent": 1
+    },
+    {
+     "text": "Provided that the court may, upon application made to it in accordance with such rules as may be made by the High Court in that behalf, allow a petition to be presented ¹[before one year has elapsed] since the date of the marriage on the ground that the case is one of exceptional hardship to the petitioner or of exceptional depravity on the part of the respondent, but if it appears to the court at the hearing of the petition that the petitioner obtained leave to present the petition by any misrepresentation or concealment of the nature of the case, the court may, if it pronounces a decree, do so subject to the condition that the decree shall not have effect until after the ²[expiry of one year] from the date of the marriage or may dismiss the petition without prejudice to any petition which may be brought after ³[expiration of the said one year] upon the same or substantially the same facts as those alleged in support of the petition so dismissed.",
+     "indent": 1
+    },
+    {
+     "text": "(2) In disposing of any application under this section for leave to present a petition for divorce before the ⁴[expiration of one year] from the date of the marriage, the court shall have regard to the interests of any children of the marriage and to the question whether there is a reasonable probability of a reconciliation between the parties before the expiration of the ⁵[said one year].",
+     "indent": 0
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 9, for certain words (w.e.f. 27-5-1976). 2 . Subs. by Act 68 of 1976, s. 9, for \"expiry of three years\" (w.e.f. 27-5-1976). 3 . Subs. by Act 68 of 1976, s. 9, for \"expiration of the said one year\" (w.e.f. 27-5-1976). 4 . Subs. by Act 68 of 1976, s. 9, for \"expiry of three years\" (w.e.f. 27-5-1976). 5 . Subs. by Act 68 of 1976, s. 9, for \"said three years\" (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "15",
+   "sortKey": 170,
+   "heading": "Divorced persons when may marry again",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "When a marriage has been dissolved by a decree of divorce and either there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, or an appeal has been presented but has been dismissed, it shall be lawful for either party to the marriage to marry again.\n\n¹* * * * *",
+   "paragraphs": [
+    {
+     "text": "When a marriage has been dissolved by a decree of divorce and either there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, or an appeal has been presented but has been dismissed, it shall be lawful for either party to the marriage to marry again.",
+     "indent": 1
+    },
+    {
+     "text": "¹* * * * *",
+     "indent": 61
+    }
+   ],
+   "footnotes": [
+    "Proviso omitted by Act 68 of 1976, s.10 (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "16",
+   "sortKey": 180,
+   "heading": "Legitimacy of children of void and voidable marriages",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹[ 16. Legitimacy of children of void and voidable marriages .—(1) Notwithstanding that a marriage marriage is null and void under section 11, any child of such marriage who would have been legitimate if the marriage had been valid, shall be legitimate, whether such child is born before or after the commencement of the Marriage Laws (Amendment) Act, 1976 (68 of 1976), and whether or not a decree of nullity is granted in respect of that marriage under this Act and whether or not the marriage is held to be void otherwise than on a petition under this Act.\n\n(2) Where a decree of nullity is granted in respect of a voidable marriage under section 12, any child begotten or conceived before the decree is made, who would have been the legitimate child of the parties to the marriage if at the date of the decree it had been dissolved instead of being annulled, shall be deemed to be their legitimate child notwithstanding the decree of nullity.\n\n(3) Nothing contained in sub-section (1) or sub-section (2) shall be construed as conferring upon any child of a marriage which is null and void or which is annulled by a decree of nullity under section 12, any rights in or to the property of any person, other than the parents, in any case where, but for the passing of this Act, such child would have been incapable of possessing or acquiring any such rights by reason of his not being the legitimate child of his parents.",
+   "paragraphs": [
+    {
+     "text": "¹[ 16. Legitimacy of children of void and voidable marriages .—(1) Notwithstanding that a marriage marriage is null and void under section 11, any child of such marriage who would have been legitimate if the marriage had been valid, shall be legitimate, whether such child is born before or after the commencement of the Marriage Laws (Amendment) Act, 1976 (68 of 1976), and whether or not a decree of nullity is granted in respect of that marriage under this Act and whether or not the marriage is held to be void otherwise than on a petition under this Act.",
+     "indent": 1
+    },
+    {
+     "text": "(2) Where a decree of nullity is granted in respect of a voidable marriage under section 12, any child begotten or conceived before the decree is made, who would have been the legitimate child of the parties to the marriage if at the date of the decree it had been dissolved instead of being annulled, shall be deemed to be their legitimate child notwithstanding the decree of nullity.",
+     "indent": 1
+    },
+    {
+     "text": "(3) Nothing contained in sub-section (1) or sub-section (2) shall be construed as conferring upon any child of a marriage which is null and void or which is annulled by a decree of nullity under section 12, any rights in or to the property of any person, other than the parents, in any case where, but for the passing of this Act, such child would have been incapable of possessing or acquiring any such rights by reason of his not being the legitimate child of his parents.",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 11, for section16 (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "17",
+   "sortKey": 190,
+   "heading": "Punishment of bigamy",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "Any marriage between two Hindus solemnized after the commencement of this Act is void if at the date of such marriage either party had a husband or wife living; and the provisions of sections 494 and 495 of the Indian Penal Code, 1860 (45 of 1860), shall apply accordingly.",
+   "paragraphs": [
+    {
+     "text": "Any marriage between two Hindus solemnized after the commencement of this Act is void if at the date of such marriage either party had a husband or wife living; and the provisions of sections 494 and 495 of the Indian Penal Code, 1860 (45 of 1860), shall apply accordingly.",
+     "indent": 0
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "18",
+   "sortKey": 200,
+   "heading": "Punishment for contravention of certain other conditions for a Hindu marriage",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "Every person who procures a marriage of himself or herself to be solemnized under this Act in contravention of the conditions specified in clauses (iii), (iv), ¹[and (v)] of section 5 shall be punishable\n\n²[(a) in the case of contravention of the condition specified in clause (iii) of section 5, with rigorous imprisonment which may extend to two years or with fine which may extend to one lakh rupees, or with both.\n\n(b) in the case of a contravention of the condition specified in clause (iv) or clause (v) of section 5, with simple imprisonment which may extend to one month, or with fine which may extend to one thousand rupees, or with both; ³* * *\n\n⁴* * * * *",
+   "paragraphs": [
+    {
+     "text": "Every person who procures a marriage of himself or herself to be solemnized under this Act in contravention of the conditions specified in clauses (iii), (iv), ¹[and (v)] of section 5 shall be punishable",
+     "indent": 2
+    },
+    {
+     "text": "²[(a) in the case of contravention of the condition specified in clause (iii) of section 5, with rigorous imprisonment which may extend to two years or with fine which may extend to one lakh rupees, or with both.",
+     "indent": 3
+    },
+    {
+     "text": "(b) in the case of a contravention of the condition specified in clause (iv) or clause (v) of section 5, with simple imprisonment which may extend to one month, or with fine which may extend to one thousand rupees, or with both; ³* * *",
+     "indent": 3
+    },
+    {
+     "text": "⁴* * * * *",
+     "indent": 61
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 2 of 1978, s. 6 and Schedule, for (v) and (vi) (w.e.f. 1-10-1978). 2 . Subs. by Act 6 of 2007, s. 20 (w.e.f. 30-10-2007). 3 . The word and omitted by Act 2 of 1978, s. 6 and Schedule (w.e.f. 1-10-1978). 4 . Clause (c) omitted by Act 2 of 1987, s. 6 and Schedule (w.e.f. 1-10-1978)."
+   ]
+  },
+  {
+   "no": "19",
+   "sortKey": 210,
+   "heading": "Court to which petition shall be presented",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹[ 19. Court to which petition shall be presented .—Every petition under this Act shall be presented to the District Court within the local limits of whose ordinary original civil jurisdiction:\n\n(i) the marriage was solemnized, or\n\n(ii) the respondent, at the time of the presentation of the petition, resides, or\n\n(iii) the parties to the marriage last resided together, or\n\n²[(iiia) in case the wife is the petitioner, where she is residing on the date of presentation of the petition; or]\n\n(iv) the petitioner is residing at the time of the presentation of the petition, in a case where the respondent is at that time, residing outside the territories to which this Act extends, or has not been heard of as being alive for a period of seven years or more by those persons who would naturally have heard of him if he were alive.]",
+   "paragraphs": [
+    {
+     "text": "¹[ 19. Court to which petition shall be presented .—Every petition under this Act shall be presented to the District Court within the local limits of whose ordinary original civil jurisdiction:",
+     "indent": 0
+    },
+    {
+     "text": "(i) the marriage was solemnized, or",
+     "indent": 3
+    },
+    {
+     "text": "(ii) the respondent, at the time of the presentation of the petition, resides, or",
+     "indent": 3
+    },
+    {
+     "text": "(iii) the parties to the marriage last resided together, or",
+     "indent": 3
+    },
+    {
+     "text": "²[(iiia) in case the wife is the petitioner, where she is residing on the date of presentation of the petition; or]",
+     "indent": 3
+    },
+    {
+     "text": "(iv) the petitioner is residing at the time of the presentation of the petition, in a case where the respondent is at that time, residing outside the territories to which this Act extends, or has not been heard of as being alive for a period of seven years or more by those persons who would naturally have heard of him if he were alive.]",
+     "indent": 3
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 12, for s. 19 (w.e.f. 27-5-1976). 2 . Ins. by Act 50 of 2003, s. 4 (w.e.f. 23-12-2003)."
+   ]
+  },
+  {
+   "no": "20",
+   "sortKey": 220,
+   "heading": "Contents and verification of petitions",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) Every petition presented under this Act shall state as distinctly as the nature of the case permits the facts on which the claim to relief is founded ¹[and, except in a petition under section 11, shall also state] that there is no collusion between the petitioner and the other party to the marriage.\n\n(2) The statements contained in every petition under this Act shall be verified by the petitioner or some other competent person in the manner required by law for the verification of plaints, and may, at the hearing, be referred to as evidence.",
+   "paragraphs": [
+    {
+     "text": "(1) Every petition presented under this Act shall state as distinctly as the nature of the case permits the facts on which the claim to relief is founded ¹[and, except in a petition under section 11, shall also state] that there is no collusion between the petitioner and the other party to the marriage.",
+     "indent": 1
+    },
+    {
+     "text": "(2) The statements contained in every petition under this Act shall be verified by the petitioner or some other competent person in the manner required by law for the verification of plaints, and may, at the hearing, be referred to as evidence.",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 13, for \"and shall also State\" (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "21",
+   "sortKey": 230,
+   "heading": "Application of Act 5 of 1908",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "Subject to the other provisions contained in this Act and to such rules as the High Court may make in this behalf, all proceedings under this Act shall be regulated, as far as may be, by the Code of Civil Procedure, 1908.",
+   "paragraphs": [
+    {
+     "text": "Subject to the other provisions contained in this Act and to such rules as the High Court may make in this behalf, all proceedings under this Act shall be regulated, as far as may be, by the Code of Civil Procedure, 1908.",
+     "indent": 0
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "21A",
+   "sortKey": 240,
+   "heading": "Power to transfer petitions in certain cases",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹[ 21A. Power to transfer petitions in certain cases .— (1) Where—\n\n(a) a petition under this Act has been presented to a district court having jurisdiction by a party to a marriage praying for a decree for judicial separation under section 10 or for a decree of divorce under section 13, and\n\n(b) another petition under this Act has been presented thereafter by the other party to the marriage praying for a decree for judicial separation under section 10 or for a decree of divorce under section 13 on any ground, whether in the same district court or in a different district court, in the same State or in a different State,\n\nthe petitions shall be dealt with as specified in sub-section (2).\n\n(2) In a case where sub-section (1) applies,\n\n(a) if the petitions are presented to the same district court, both the petitions shall be tried and heard together by that district court;\n\n(b) if the petitions are presented to different district courts, the petition presented later shall be transferred to the district court in which the earlier petition was presented and both the petitions shall be heard and disposed of together by the district court in which the earlier petition was presented.\n\n(3) In a case where clause (b) of sub-section (2) applies, the court or the Government, as the case may be, competent under the Code of Civil Procedure, 1908 (5 of 1908), to transfer any suit or proceeding from the district court in which the later petition has been presented to the district court in which the earlier petition is pending, shall exercise its powers to transfer such later petition as if it had been empowered so to do under the said Code.",
+   "paragraphs": [
+    {
+     "text": "¹[ 21A. Power to transfer petitions in certain cases .— (1) Where—",
+     "indent": 1
+    },
+    {
+     "text": "(a) a petition under this Act has been presented to a district court having jurisdiction by a party to a marriage praying for a decree for judicial separation under section 10 or for a decree of divorce under section 13, and",
+     "indent": 3
+    },
+    {
+     "text": "(b) another petition under this Act has been presented thereafter by the other party to the marriage praying for a decree for judicial separation under section 10 or for a decree of divorce under section 13 on any ground, whether in the same district court or in a different district court, in the same State or in a different State,",
+     "indent": 3
+    },
+    {
+     "text": "the petitions shall be dealt with as specified in sub-section (2).",
+     "indent": 0
+    },
+    {
+     "text": "(2) In a case where sub-section (1) applies,",
+     "indent": 1
+    },
+    {
+     "text": "(a) if the petitions are presented to the same district court, both the petitions shall be tried and heard together by that district court;",
+     "indent": 3
+    },
+    {
+     "text": "(b) if the petitions are presented to different district courts, the petition presented later shall be transferred to the district court in which the earlier petition was presented and both the petitions shall be heard and disposed of together by the district court in which the earlier petition was presented.",
+     "indent": 3
+    },
+    {
+     "text": "(3) In a case where clause (b) of sub-section (2) applies, the court or the Government, as the case may be, competent under the Code of Civil Procedure, 1908 (5 of 1908), to transfer any suit or proceeding from the district court in which the later petition has been presented to the district court in which the earlier petition is pending, shall exercise its powers to transfer such later petition as if it had been empowered so to do under the said Code.",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Ins. by Act 68 of 1976, s. 14 (w.e.f. 27-5-1976)"
+   ]
+  },
+  {
+   "no": "21B",
+   "sortKey": 250,
+   "heading": "Special provision relating to trial and disposal of petitions under the Act",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) The trial of a petition under this Act shall, so far as is practicable consistently with the interests of justice in respect of the trial, be continued from day to day until its conclusion unless the court finds the adjournment of the trial beyond the following day to be necessary for reasons to be recorded.\n\n(2) Every petition under this Act shall be tried as expeditiously as possible and endeavour shall be made to conclude the trial within six months from the date of service of notice of the petition on the respondent.\n\n(3) Every appeal under this Act shall be heard as expeditiously as possible, and endeavour shall be made to conclude the hearing within three months from the date of service of notice of appeal on the respondent.",
+   "paragraphs": [
+    {
+     "text": "(1) The trial of a petition under this Act shall, so far as is practicable consistently with the interests of justice in respect of the trial, be continued from day to day until its conclusion unless the court finds the adjournment of the trial beyond the following day to be necessary for reasons to be recorded.",
+     "indent": 1
+    },
+    {
+     "text": "(2) Every petition under this Act shall be tried as expeditiously as possible and endeavour shall be made to conclude the trial within six months from the date of service of notice of the petition on the respondent.",
+     "indent": 1
+    },
+    {
+     "text": "(3) Every appeal under this Act shall be heard as expeditiously as possible, and endeavour shall be made to conclude the hearing within three months from the date of service of notice of appeal on the respondent.",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "21C",
+   "sortKey": 260,
+   "heading": "Documentary evidence",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "Notwithstanding anything in any enactment to the contrary, no document shall be inadmissible in evidence in any proceeding at the trial of a petition under this Act on the ground that it is not duly stamped or registered.",
+   "paragraphs": [
+    {
+     "text": "Notwithstanding anything in any enactment to the contrary, no document shall be inadmissible in evidence in any proceeding at the trial of a petition under this Act on the ground that it is not duly stamped or registered.",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "22",
+   "sortKey": 270,
+   "heading": "Proceedings to be in camera and may not be printed or published",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹[ 22. Proceedings to be in camera and may not be printed or published .—(1) Every proceeding under this Act shall be conducted in camera and it shall not be lawful for any person to print or publish any matter in relation to any such proceeding except a judgment of the High Court or of the Supreme Court printed or published with the previous permission of the court.\n\n(2) If any person prints or publishes any matter in contravention of the provisions contained in sub-section (1), he shall be punishable with fine which may extend to one thousand rupees.",
+   "paragraphs": [
+    {
+     "text": "¹[ 22. Proceedings to be in camera and may not be printed or published .—(1) Every proceeding under this Act shall be conducted in camera and it shall not be lawful for any person to print or publish any matter in relation to any such proceeding except a judgment of the High Court or of the Supreme Court printed or published with the previous permission of the court.",
+     "indent": 1
+    },
+    {
+     "text": "(2) If any person prints or publishes any matter in contravention of the provisions contained in sub-section (1), he shall be punishable with fine which may extend to one thousand rupees.",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 15, for s. 22 (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "23",
+   "sortKey": 280,
+   "heading": "Decree in proceedings",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) In any proceeding under this Act, whether defended or not, if the court is satisfied that\n\n(a) any of the grounds for granting relief exists and the petitioner ¹[except in cases where the relief is sought by him on the ground specified in sub-clause (a), sub-clause (b) or sub-clause (c) of clause (ii) of section 5] is not in any way taking advantage of his or her own wrong or disability for the purpose of such relief, and\n\n(b) where the ground of the petition is the ground specified ²* * * in clause (i) of sub-section (1) of section 13, the petitioner has not in any manner been accessory to or connived at or condoned the act or acts complained of, or where the ground of the petition is cruelty the petitioner has not in any manner condoned the cruelty, and\n\n¹[(bb) when a divorce is sought on the ground of mutual consent, such consent has not been obtained by force, fraud or undue influence, and]\n\n(c)³[the petition (not being a petition presented under section 11)] is not presented or prosecuted in collusion with the respondent, and\n\n(d) there has not been any unnecessary or improper delay in instituting the proceeding, and (e) there is no other legal ground why relief should not be granted, then, and in such a case, but not otherwise, the court shall decree such relief accordingly.\n\n(2) Before proceeding to grant any relief under this Act, it shall be the duty of the court in the first instance, in every case where it is possible so to do consistently with the nature and circumstances of the case, to make every endeavour to bring about reconciliation between the parties:\n\n⁴[Provided that nothing contained in this sub-section shall apply to any proceeding wherein relief is sought on any of the grounds specified in clause (ii), clause (iii), clause (iv), clause (v), clause (vi) or clause (vii) of sub-section (1) of section 13.]\n\n⁵[(3) For the purpose of aiding the court in bringing about such reconciliation, the court may, if the parties so desire or if the court thinks it just and proper so to do, adjourn the proceedings for a reasonable period not exceeding fifteen days and refer the matter to any person named by the parties in this behalf or to any person nominated by the court if the parties fail to name any person, with directions to report to the court as to whether reconciliation can be and has been, effected and the court shall in disposing of the proceeding have due regard to the report.\n\n(4) In every case where a marriage is dissolved by a decree of divorce, the court passing the decree shall give a copy thereof free of cost to each of the parties.]",
+   "paragraphs": [
+    {
+     "text": "(1) In any proceeding under this Act, whether defended or not, if the court is satisfied that",
+     "indent": 1
+    },
+    {
+     "text": "(a) any of the grounds for granting relief exists and the petitioner ¹[except in cases where the relief is sought by him on the ground specified in sub-clause (a), sub-clause (b) or sub-clause (c) of clause (ii) of section 5] is not in any way taking advantage of his or her own wrong or disability for the purpose of such relief, and",
+     "indent": 2
+    },
+    {
+     "text": "(b) where the ground of the petition is the ground specified ²* * * in clause (i) of sub-section (1) of section 13, the petitioner has not in any manner been accessory to or connived at or condoned the act or acts complained of, or where the ground of the petition is cruelty the petitioner has not in any manner condoned the cruelty, and",
+     "indent": 2
+    },
+    {
+     "text": "¹[(bb) when a divorce is sought on the ground of mutual consent, such consent has not been obtained by force, fraud or undue influence, and]",
+     "indent": 2
+    },
+    {
+     "text": "(c)³[the petition (not being a petition presented under section 11)] is not presented or prosecuted in collusion with the respondent, and",
+     "indent": 2
+    },
+    {
+     "text": "(d) there has not been any unnecessary or improper delay in instituting the proceeding, and (e) there is no other legal ground why relief should not be granted, then, and in such a case, but not otherwise, the court shall decree such relief accordingly.",
+     "indent": 5
+    },
+    {
+     "text": "(2) Before proceeding to grant any relief under this Act, it shall be the duty of the court in the first instance, in every case where it is possible so to do consistently with the nature and circumstances of the case, to make every endeavour to bring about reconciliation between the parties:",
+     "indent": 1
+    },
+    {
+     "text": "⁴[Provided that nothing contained in this sub-section shall apply to any proceeding wherein relief is sought on any of the grounds specified in clause (ii), clause (iii), clause (iv), clause (v), clause (vi) or clause (vii) of sub-section (1) of section 13.]",
+     "indent": 1
+    },
+    {
+     "text": "⁵[(3) For the purpose of aiding the court in bringing about such reconciliation, the court may, if the parties so desire or if the court thinks it just and proper so to do, adjourn the proceedings for a reasonable period not exceeding fifteen days and refer the matter to any person named by the parties in this behalf or to any person nominated by the court if the parties fail to name any person, with directions to report to the court as to whether reconciliation can be and has been, effected and the court shall in disposing of the proceeding have due regard to the report.",
+     "indent": 1
+    },
+    {
+     "text": "(4) In every case where a marriage is dissolved by a decree of divorce, the court passing the decree shall give a copy thereof free of cost to each of the parties.]",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Ins. by s. 16, ibid . (w.e.f. 27-5-1976). 2 . The words, bracket, letter of figure in clause (f) of sub-section (1) of section 10 or omitted by s. 16, ibid . (w.e.f. 27-5-1976). 3 . Subs. by s. 16, ibid ., for the petition (w.e.f. 27-5-1976). 4 . Added by s. 16, ibid . (w.e.f. 27-5-1976). 5 . Ins. by Act 68 of 1976, s. 16 (w.e.f. 27-5-1976)"
+   ]
+  },
+  {
+   "no": "23A",
+   "sortKey": 290,
+   "heading": "Relief for respondent in divorce and other proceedings",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹[In any proceeding for divorce or judicial separation or restitution of conjugal rights, the respondent may not only oppose the relief sought on the ground of petitioners adultery, cruelty or desertion, but also make a counter-claim for any relief under this Act on that ground; and if the petitioners adultery, cruelty or desertion is proved, the court may give to the respondent any relief under this Act to which he or she would have been entitled if he or she had presented a petition seeking such relief on that ground.]",
+   "paragraphs": [
+    {
+     "text": "¹[In any proceeding for divorce or judicial separation or restitution of conjugal rights, the respondent may not only oppose the relief sought on the ground of petitioners adultery, cruelty or desertion, but also make a counter-claim for any relief under this Act on that ground; and if the petitioners adultery, cruelty or desertion is proved, the court may give to the respondent any relief under this Act to which he or she would have been entitled if he or she had presented a petition seeking such relief on that ground.]",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Ins by Act 68 of 1976, s. 17, (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "24",
+   "sortKey": 300,
+   "heading": "Maintenance pendente lite and expenses of proceedings",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "Where in any proceeding under this Act it appears to the court that either the wife or the husband, as the case may be, has no independent income sufficient for her or his support and the necessary expenses of the proceeding, it may, on the application of the wife or the husband, order the respondent to pay to the petitioner the expenses of the proceeding, and monthly during the proceeding such sum as, having regard to the petitioners own income and the income of the respondent, it may seem to the court to be reasonable.\n\n¹[Provided that the application for the payment of the expenses of the proceeding and such monthly sum during the proceeding, shall, as far as possible, be disposed of within sixty days from the date of service of notice on the wife or the husband, as the case may be.]",
+   "paragraphs": [
+    {
+     "text": "Where in any proceeding under this Act it appears to the court that either the wife or the husband, as the case may be, has no independent income sufficient for her or his support and the necessary expenses of the proceeding, it may, on the application of the wife or the husband, order the respondent to pay to the petitioner the expenses of the proceeding, and monthly during the proceeding such sum as, having regard to the petitioners own income and the income of the respondent, it may seem to the court to be reasonable.",
+     "indent": 1
+    },
+    {
+     "text": "¹[Provided that the application for the payment of the expenses of the proceeding and such monthly sum during the proceeding, shall, as far as possible, be disposed of within sixty days from the date of service of notice on the wife or the husband, as the case may be.]",
+     "indent": 0
+    }
+   ],
+   "footnotes": [
+    "Ins. by Act 49 of 2001, s. 8 (w.e.f. 24-9-2001)."
+   ]
+  },
+  {
+   "no": "25",
+   "sortKey": 310,
+   "heading": "Permanent alimony and maintenance",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) Any court exercising jurisdiction under this Act may, at the time of passing any decree or at any time subsequent thereto, on application made to it for the purpose by either the wife or the husband, as the case may be, order that the respondent shall ¹*** pay to the applicant for her or his maintenance and support such gross sum or such monthly or periodical sum for a term not exceeding the life of the applicant as, having regard to the respondents own income and other property, if any, the income and other property of the applicant ²[the conduct of the parties and other circumstances of the case], it may seem to the court to be just, and any such payment may be secured, if necessary, by a charge on the immovable property of the respondent.\n\n(2) If the court is satisfied that there is a change in the circumstances of either party at any time after it has made an order under sub-section (1), it may, at the instance of either party, vary, modify or rescind any such order in such manner as the court may deem just.\n\n(3) If the court is satisfied that the party in whose favour an order has been made under this section has re-married or, if such party is the wife, that she has not remained chaste, or, if such party is the husband, that he has had sexual intercourse with any woman outside wedlock, ³[it may at the instance of the other party vary, modify or rescind any such order in such manner as the court may deem just.]",
+   "paragraphs": [
+    {
+     "text": "(1) Any court exercising jurisdiction under this Act may, at the time of passing any decree or at any time subsequent thereto, on application made to it for the purpose by either the wife or the husband, as the case may be, order that the respondent shall ¹*** pay to the applicant for her or his maintenance and support such gross sum or such monthly or periodical sum for a term not exceeding the life of the applicant as, having regard to the respondents own income and other property, if any, the income and other property of the applicant ²[the conduct of the parties and other circumstances of the case], it may seem to the court to be just, and any such payment may be secured, if necessary, by a charge on the immovable property of the respondent.",
+     "indent": 1
+    },
+    {
+     "text": "(2) If the court is satisfied that there is a change in the circumstances of either party at any time after it has made an order under sub-section (1), it may, at the instance of either party, vary, modify or rescind any such order in such manner as the court may deem just.",
+     "indent": 1
+    },
+    {
+     "text": "(3) If the court is satisfied that the party in whose favour an order has been made under this section has re-married or, if such party is the wife, that she has not remained chaste, or, if such party is the husband, that he has had sexual intercourse with any woman outside wedlock, ³[it may at the instance of the other party vary, modify or rescind any such order in such manner as the court may deem just.]",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "The words while the applicant remains unmarried omitted by Act 68 of 1976, s. 18 (w.e.f. 27-5-1976). 2 . Subs. by s. 18, ibid ., for certain words. (w.e.f. 27-5-1976). 3 . Subs. by s. 18, ibid., for it shall rescind the order (w.e.f. 27-5-1976)."
+   ]
+  },
+  {
+   "no": "26",
+   "sortKey": 320,
+   "heading": "Custody of children",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "In any proceeding under this Act, the court may, from time to time, pass such interim orders and make such provisions in the decree as it may deem just and proper with respect to the custody, maintenance and education of minor children, consistently with their wishes, wherever possible, and may, after the decree, upon application by petition for the purpose, make from time to time, all such orders and provisions with respect to the custody, maintenance and education of such children as might have been made by such decree or interim orders in case the proceeding for obtaining such decree were still pending, and the court may also from time to time revoke, suspend or vary any such orders and provisions previously made:\n\n¹Provided that the application with respect to the maintenance and education of the minor children, pending the proceeding for obtaining such decree, shall, as far as possible, be disposed of within sixty days from the date of service of notice on the respondent.]",
+   "paragraphs": [
+    {
+     "text": "In any proceeding under this Act, the court may, from time to time, pass such interim orders and make such provisions in the decree as it may deem just and proper with respect to the custody, maintenance and education of minor children, consistently with their wishes, wherever possible, and may, after the decree, upon application by petition for the purpose, make from time to time, all such orders and provisions with respect to the custody, maintenance and education of such children as might have been made by such decree or interim orders in case the proceeding for obtaining such decree were still pending, and the court may also from time to time revoke, suspend or vary any such orders and provisions previously made:",
+     "indent": 1
+    },
+    {
+     "text": "¹Provided that the application with respect to the maintenance and education of the minor children, pending the proceeding for obtaining such decree, shall, as far as possible, be disposed of within sixty days from the date of service of notice on the respondent.]",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Ins. by Act 49 of 2001, s. 9 (w.e.f. 24-9-2001)."
+   ]
+  },
+  {
+   "no": "27",
+   "sortKey": 330,
+   "heading": "Disposal of property",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "In any proceeding under this Act, the court may make such provisions in the decree as it deems just and proper with respect to any property presented, at or about the time of marriage, which may belong jointly to both the husband and the wife.",
+   "paragraphs": [
+    {
+     "text": "In any proceeding under this Act, the court may make such provisions in the decree as it deems just and proper with respect to any property presented, at or about the time of marriage, which may belong jointly to both the husband and the wife.",
+     "indent": 0
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "28",
+   "sortKey": 340,
+   "heading": "Appeals from decrees and orders",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "¹[(1) All decrees made by the court in any proceeding under this Act shall, subject to the provisions of sub-section (3), be appealable as decrees of the court made in the exercise of its original civil jurisdiction, and every such appeal shall lie to the court to which appeals ordinarily lie from the decisions of the court given in the exercise of its original civil jurisdiction.\n\n(2) Orders made by the court in any proceeding under this Act under section 25 or section 26 shall, subject to the provisions of sub-section (3), be appealable if they are not interim orders, and every such appeal shall lie to the court to which appeals ordinarily lie from the decisions of the court given in exercise of its original civil jurisdiction.\n\n(3) There shall be no appeal under this section on the subject of costs only.\n\n(4) Every appeal under this section shall be preferred within a ²[period of ninety days] from the date of the decree or order",
+   "paragraphs": [
+    {
+     "text": "¹[(1) All decrees made by the court in any proceeding under this Act shall, subject to the provisions of sub-section (3), be appealable as decrees of the court made in the exercise of its original civil jurisdiction, and every such appeal shall lie to the court to which appeals ordinarily lie from the decisions of the court given in the exercise of its original civil jurisdiction.",
+     "indent": 1
+    },
+    {
+     "text": "(2) Orders made by the court in any proceeding under this Act under section 25 or section 26 shall, subject to the provisions of sub-section (3), be appealable if they are not interim orders, and every such appeal shall lie to the court to which appeals ordinarily lie from the decisions of the court given in exercise of its original civil jurisdiction.",
+     "indent": 1
+    },
+    {
+     "text": "(3) There shall be no appeal under this section on the subject of costs only.",
+     "indent": 1
+    },
+    {
+     "text": "(4) Every appeal under this section shall be preferred within a ²[period of ninety days] from the date of the decree or order",
+     "indent": 1
+    }
+   ],
+   "footnotes": [
+    "Subs. by Act 68 of 1976, s. 19 (w.e.f. 27-5-1976). 2 . Subs. by Act 50 of 2003, s. 5, for period of thirty days (w.e.f. 23-12-2003)."
+   ]
+  },
+  {
+   "no": "28A",
+   "sortKey": 350,
+   "heading": "Enforcement of decrees and orders",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "[ 28A. Enforcement of decrees and orders —All decrees and orders made by the court in any proceeding under this Act shall be enforced in the like manner as the decrees and orders of the court made in the exercise of its original civil jurisdiction for the time being in forced.]",
+   "paragraphs": [
+    {
+     "text": "[ 28A. Enforcement of decrees and orders —All decrees and orders made by the court in any proceeding under this Act shall be enforced in the like manner as the decrees and orders of the court made in the exercise of its original civil jurisdiction for the time being in forced.]",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "29",
+   "sortKey": 360,
+   "heading": "Savings",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "(1) A marriage solemnized between Hindus before the commencement of this Act, which is otherwise valid, shall not be deemed to be invalid or ever to have been invalid by reason only of the fact that the parties thereto belonged to the same gotra or pravara or belonged to different religions, castes or sub-divisions of the same caste.\n\n(2) Nothing contained in this Act shall be deemed to affect any right recognised by custom or conferred by any special enactment to obtain the dissolution of a Hindu marriage, whether solemnized before or after the commencement of this Act.\n\n(3) Nothing contained in this Act shall affect any proceeding under any law for the time being in force for declaring any marriage to be null and void or for annulling or dissolving any marriage or for judicial separation pending at the commencement of this Act, and any such proceeding may be continued and determined as if this Act had not been passed.\n\n(4) Nothing contained in this Act shall be deemed to affect the provisions contained in the Special Marriage Act, 1954, (43 of 1954) with respect to marriages between Hindus solemnized under that Act, whether before or after the commencement of this Act.",
+   "paragraphs": [
+    {
+     "text": "(1) A marriage solemnized between Hindus before the commencement of this Act, which is otherwise valid, shall not be deemed to be invalid or ever to have been invalid by reason only of the fact that the parties thereto belonged to the same gotra or pravara or belonged to different religions, castes or sub-divisions of the same caste.",
+     "indent": 1
+    },
+    {
+     "text": "(2) Nothing contained in this Act shall be deemed to affect any right recognised by custom or conferred by any special enactment to obtain the dissolution of a Hindu marriage, whether solemnized before or after the commencement of this Act.",
+     "indent": 1
+    },
+    {
+     "text": "(3) Nothing contained in this Act shall affect any proceeding under any law for the time being in force for declaring any marriage to be null and void or for annulling or dissolving any marriage or for judicial separation pending at the commencement of this Act, and any such proceeding may be continued and determined as if this Act had not been passed.",
+     "indent": 1
+    },
+    {
+     "text": "(4) Nothing contained in this Act shall be deemed to affect the provisions contained in the Special Marriage Act, 1954, (43 of 1954) with respect to marriages between Hindus solemnized under that Act, whether before or after the commencement of this Act.",
+     "indent": 1
+    }
+   ],
+   "footnotes": []
+  },
+  {
+   "no": "30",
+   "sortKey": 370,
+   "heading": "[Repealed]",
+   "chapter": null,
+   "chapterNo": null,
+   "text": "[ Rep. by the Repealing and Amending Act, 1960 (58 of 1960), s . 2 and the First Schedule ( w.e.f . 26-12-1960).",
+   "paragraphs": [
+    {
+     "text": "[ Rep. by the Repealing and Amending Act, 1960 (58 of 1960), s . 2 and the First Schedule ( w.e.f . 26-12-1960).",
+     "indent": 0
+    }
+   ],
+   "footnotes": []
+  }
+ ]
+}

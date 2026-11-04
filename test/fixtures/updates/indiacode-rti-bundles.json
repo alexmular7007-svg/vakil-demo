@@ -1,0 +1,169 @@
+{
+ "_embedded": {
+  "bundles": [
+   {
+    "name": "ORIGINAL",
+    "_embedded": {
+     "bitstreams": {
+      "_embedded": {
+       "bitstreams": [
+        {
+         "name": "A2005-22.pdf",
+         "sizeBytes": 388220,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "2a4a894d20f056070d9feb3b2df1d67a"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/78f68a27-8902-4081-8d53-a3932264ca52/content"
+          }
+         }
+        },
+        {
+         "name": "H2005-22.pdf",
+         "sizeBytes": 1081860,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "cbf422e0634cdbf0a47cfb25541dc7d9"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/3cfec817-8b3b-4fc4-9395-f04bfcca1a1f/content"
+          }
+         }
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "name": "TEXT",
+    "_embedded": {
+     "bitstreams": {
+      "_embedded": {
+       "bitstreams": [
+        {
+         "name": "a2005-22.pdf.txt",
+         "sizeBytes": 71986,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "94aa921fa864d6588547844579fab2a2"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/f88be9aa-088a-4634-a9af-20a7edd51e57/content"
+          }
+         }
+        },
+        {
+         "name": "H2005.pdf.txt",
+         "sizeBytes": 150466,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "4e236a5f2e083d1df08160f0c74e69bd"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/d47fd916-552b-4939-a815-e98c601f18aa/content"
+          }
+         }
+        },
+        {
+         "name": "A2005-22.pdf.txt",
+         "sizeBytes": 72103,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "19a4bf2ace070de80629e446b067be07"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/5abb64af-17f7-4c9d-9888-36de01e9fa08/content"
+          }
+         }
+        },
+        {
+         "name": "H2005-22.pdf.txt",
+         "sizeBytes": 132886,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "988aae84f74307de18555f614b644611"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/b6bbcf14-3f25-4a8b-8290-10f06110db84/content"
+          }
+         }
+        }
+       ]
+      }
+     }
+    }
+   },
+   {
+    "name": "THUMBNAIL",
+    "_embedded": {
+     "bitstreams": {
+      "_embedded": {
+       "bitstreams": [
+        {
+         "name": "a2005-22.pdf.jpg",
+         "sizeBytes": 3827,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "4c62f31514c223cbb77d24e145daaa63"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/d95d3d48-d587-4182-ba8a-b51c5cf0dd1f/content"
+          }
+         }
+        },
+        {
+         "name": "H2005.pdf.jpg",
+         "sizeBytes": 5717,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "ef25597b1cebe40a1fccbf3887eaabd0"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/b162ee76-582b-4052-8f89-b3be5a03ec1b/content"
+          }
+         }
+        },
+        {
+         "name": "A2005-22.pdf.jpg",
+         "sizeBytes": 3827,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "4c62f31514c223cbb77d24e145daaa63"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/baa0733b-338b-45c2-8a0e-36be57242312/content"
+          }
+         }
+        },
+        {
+         "name": "H2005-22.pdf.jpg",
+         "sizeBytes": 5529,
+         "checkSum": {
+          "checkSumAlgorithm": "MD5",
+          "value": "0a05422974fd174331a393dc6317c3ba"
+         },
+         "_links": {
+          "content": {
+           "href": "https://indiacode.gov.in/server/api/core/bitstreams/8ddf1ead-1efd-437a-93eb-08dddf5ef7a0/content"
+          }
+         }
+        }
+       ]
+      }
+     }
+    }
+   }
+  ]
+ }
+}
