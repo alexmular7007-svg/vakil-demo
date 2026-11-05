@@ -13,9 +13,15 @@ const optionalInt = (min: number, max: number) => z.preprocess(blank, z.coerce.n
 const optionalTier = z.preprocess(blank, z.enum(["fast", "standard", "pro"]).optional());
 const optionalEffort = z.preprocess(blank, z.enum(["low", "medium", "high", "xhigh", "max"]).optional());
 
+const vercelUrl = process.env.VERCEL_PROJECT_PRODUCTION_URL
+  ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+  : process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : undefined;
+
 const schema = z.object({
   NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
-  APP_URL: z.string().url().default("http://localhost:3000"),
+  APP_URL: z.string().url().default(process.env.APP_URL || vercelUrl || "http://localhost:3000"),
 
   // Database. Empty in local development: an embedded Postgres (PGlite) is used.
   DATABASE_URL: optional,

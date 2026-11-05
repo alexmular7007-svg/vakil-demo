@@ -17,6 +17,12 @@ export const auth = betterAuth({
   appName: "Vaakil AI",
   baseURL: env.APP_URL,
   secret: env.authSecret,
+  trustedOrigins: [
+    env.APP_URL,
+    "https://*.vercel.app",
+    process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : undefined,
+    process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : undefined,
+  ].filter(Boolean) as string[],
   database: drizzleAdapter(db, {
     provider: "pg",
     schema: { user, session, account, verification, twoFactor: twoFactorTable, rateLimit: authRateLimit },
@@ -25,7 +31,7 @@ export const auth = betterAuth({
     enabled: true,
     minPasswordLength: 10,
     maxPasswordLength: 128,
-    requireEmailVerification: env.isProd,
+    requireEmailVerification: env.isProd && features.email,
     revokeSessionsOnPasswordReset: true,
     sendResetPassword: async ({ user, url }) => {
       await sendEmail({
