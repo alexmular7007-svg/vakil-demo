@@ -208,10 +208,10 @@ export async function getFeeSummary(
 }
 
 /** Overdue, unpaid invoices for the notifications bell (oldest due first, at most 5). */
-export async function invoiceNotices(userId: string): Promise<Notice[]> {
+export async function invoiceNotices(userId: string, txOpt?: Tx): Promise<Notice[]> {
   const today = istToday();
-  const rows = await withUser(userId, (tx) =>
-    tx
+  const run = async (tx: Tx) => {
+    const rows = await tx
       .select({
         id: invoices.id,
         number: invoices.number,
@@ -225,22 +225,23 @@ export async function invoiceNotices(userId: string): Promise<Notice[]> {
       .from(invoices)
       .where(and(eq(invoices.ownerId, userId), inArray(invoices.status, OPEN), lt(invoices.dueDate, today)))
       .orderBy(asc(invoices.dueDate))
-      .limit(20),
-  );
-  const out: Notice[] = [];
-  for (const r of rows) {
-    if (!r.dueDate || !isOverdue(r, today)) continue;
-    const late = daysOverdue(r.dueDate, today);
-    out.push({
-      id: `inv-${r.id}`,
-      kind: "invoice",
-      title: `Fee overdue: ${r.number}`,
-      detail: `${formatINR(balanceOf(r))} from ${r.billTo?.name ?? "client"} · due ${formatDate(r.dueDate)} (${late} ${late === 1 ? "day" : "days"} late)`,
-      href: `/app/fees/${r.id}`,
-      at: new Date(`${r.dueDate}T00:00:00+05:30`).toISOString(),
-      urgent: late > 30,
-    });
-    if (out.length === 5) break;
-  }
-  return out;
+      .limit(20);
+    const out: Notice[] = [];
+    for (const r of rows) {
+      if (!r.dueDate || !isOverdue(r, today)) continue;
+      const late = daysOverdue(r.dueDate, today);
+      out.push({
+        id: `inv-${r.id}`,
+        kind: "invoice",
+        title: `Fee overdue: ${r.number}`,
+        detail: `${formatINR(balanceOf(r))} from ${r.billTo?.name ?? "client"} · due ${formatDate(r.dueDate)} (${late} ${late === 1 ? "day" : "days"} late)`,
+        href: `/app/fees/${r.id}`,
+        at: new Date(`${r.dueDate}T00:00:00+05:30`).toISOString(),
+        urgent: late > 30,
+      });
+      if (out.length === 5) break;
+    }
+    return out;
+  };
+  return txOpt ? run(txOpt) : withUser(userId, run);
 }

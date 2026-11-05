@@ -136,11 +136,13 @@ export async function getDiaryBoard(
 }
 
 /** Diary notices for the bell: hearings today (urgent) and tomorrow, and overdue open tasks. */
-export async function hearingNotices(userId: string): Promise<Notice[]> {
-  await connection();
+export async function hearingNotices(
+  userId: string,
+  txOpt?: Tx,
+): Promise<Notice[]> {
   const today = todayIST();
   const tomorrow = addDays(today, 1);
-  return withUser(userId, async (tx) => {
+  const run = async (tx: Tx) => {
     const [soon, overdue] = await Promise.all([
       listHearings(tx, userId, and(gte(hearings.hearingDate, today), lte(hearings.hearingDate, tomorrow), eq(hearings.status, "scheduled")), {
         limit: 10,
@@ -178,7 +180,8 @@ export async function hearingNotices(userId: string): Promise<Notice[]> {
       });
     }
     return out;
-  });
+  };
+  return txOpt ? run(txOpt) : withUser(userId, run);
 }
 
 /* --------------------------------------------------------------------------
