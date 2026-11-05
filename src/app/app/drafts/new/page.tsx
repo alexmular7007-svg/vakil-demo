@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { connection } from "next/server";
 import { requireUser } from "@/lib/auth/dal";
 import { withUser } from "@/lib/db";
 import { getTemplate, templateCatalog } from "@/lib/drafting/catalog";
@@ -21,8 +20,6 @@ export default async function NewDraftPage({ searchParams }: { searchParams: Pro
     reviews: await templateReviewMap(tx),
   }));
   const summaries = templateCatalog.map((t) => toTemplateSummary(t, reviews.has(t.slug) ? reviews.get(t.slug) : t.reviewedBy));
-
-  await connection();
   const today = new Intl.DateTimeFormat("en-CA", { timeZone: "Asia/Kolkata" }).format(new Date());
 
   return (

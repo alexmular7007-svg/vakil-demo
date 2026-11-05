@@ -8,10 +8,6 @@ import { requireUser } from "@/lib/auth/dal";
 import { db } from "@/lib/db";
 import { advocateProfiles } from "@/lib/db/schema";
 
-// Every workspace page depends on the signed-in user, so pages stream behind
-// loading.tsx instead of being prefetched as static shells.
-export const instant = false;
-
 export const metadata: Metadata = {
   title: { default: "Workspace", template: "%s · Vaakil AI" },
   robots: { index: false, follow: false },

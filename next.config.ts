@@ -35,8 +35,6 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  cacheComponents: true,
-  partialPrefetching: true,
   poweredByHeader: false,
   // PGlite ships WASM + data files that must be loaded from node_modules at runtime.
   serverExternalPackages: ["@electric-sql/pglite", "unpdf", "mammoth"],
