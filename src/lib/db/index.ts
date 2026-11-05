@@ -18,7 +18,13 @@ export type Tx = PgTransaction<PgQueryResultHKT, Schema, ExtractTablesWithRelati
 function connect(): Db {
   if (env.DATABASE_URL) {
     // prepare:false keeps the client compatible with Supabase's transaction pooler.
-    const client = postgres(env.DATABASE_URL, { prepare: false, max: 10, onnotice: () => {} });
+    const client = postgres(env.DATABASE_URL, {
+      prepare: false,
+      max: 5,
+      idle_timeout: 20,
+      connect_timeout: 10,
+      onnotice: () => {},
+    });
     return drizzlePostgres({ client, schema, casing: "snake_case" }) as unknown as Db;
   }
   mkdirSync(dirname(env.PGLITE_DIR), { recursive: true });

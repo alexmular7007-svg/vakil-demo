@@ -6,6 +6,7 @@ import { Menu as MenuIcon, X } from "lucide-react";
 import { Logo } from "@/components/brand";
 import { Button } from "@/components/ui/button";
 import { Sheet } from "@/components/ui/overlay";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const links = [
   { href: "/#features", label: "Features" },
@@ -29,7 +30,8 @@ export function SiteHeader() {
               </Link>
             ))}
           </nav>
-          <div className="ml-auto hidden items-center gap-2 sm:flex">
+          <div className="ml-auto hidden items-center gap-3 sm:flex">
+            <ThemeToggle />
             <Button asChild variant="ghost" size="sm">
               <Link href="/login">Sign in</Link>
             </Button>
@@ -37,14 +39,17 @@ export function SiteHeader() {
               <Link href="/signup">Start free</Link>
             </Button>
           </div>
-          <button
-            type="button"
-            onClick={() => setOpen(true)}
-            className="inline-flex size-10 items-center justify-center rounded-md text-ink-2 hover:bg-surface-2 max-sm:ml-auto lg:hidden"
-            aria-label="Open menu"
-          >
-            <MenuIcon className="size-5" />
-          </button>
+          <div className="ml-auto flex items-center gap-2 lg:hidden">
+            <ThemeToggle className="sm:hidden" />
+            <button
+              type="button"
+              onClick={() => setOpen(true)}
+              className="inline-flex size-10 items-center justify-center rounded-md text-ink-2 hover:bg-surface-2"
+              aria-label="Open menu"
+            >
+              <MenuIcon className="size-5" />
+            </button>
+          </div>
         </div>
       </header>
 
@@ -72,7 +77,11 @@ export function SiteHeader() {
             </Link>
           ))}
         </nav>
-        <div className="mt-auto grid gap-2 border-t border-border p-4">
+        <div className="mt-auto grid gap-3 border-t border-border p-4">
+          <div className="flex items-center justify-between py-1">
+            <span className="text-sm font-medium text-ink-2">Appearance</span>
+            <ThemeToggle />
+          </div>
           <Button asChild variant="outline" className="w-full">
             <Link href="/login" onClick={() => setOpen(false)}>Sign in</Link>
           </Button>

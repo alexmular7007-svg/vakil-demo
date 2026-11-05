@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Logo } from "@/components/brand";
 import { site } from "@/lib/site";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 const columns = [
   {
@@ -69,7 +70,13 @@ export function SiteFooter() {
             Bar Council of India rules: Vaakil AI does not advertise or solicit work for advocates. Advocate profiles are
             shown for information only, unranked, at the advocate&apos;s request.
           </p>
-          <p>© Vaakil.com. All rights reserved.</p>
+          <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:items-center sm:justify-between">
+            <p>© Vaakil.com. All rights reserved.</p>
+            <div className="flex items-center gap-2">
+              <span className="text-xs text-muted">Theme</span>
+              <ThemeToggle />
+            </div>
+          </div>
         </div>
       </div>
     </footer>
