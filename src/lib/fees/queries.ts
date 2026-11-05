@@ -1,6 +1,6 @@
 import "server-only";
 import { and, asc, desc, eq, gte, inArray, lt, lte, sql, type SQL } from "drizzle-orm";
-import { withUser } from "@/lib/db";
+import { withUser, type Tx } from "@/lib/db";
 import { advocateProfiles, clients, feeReceipts, invoices, matters, practiceProfiles } from "@/lib/db/schema";
 import type { Notice } from "@/lib/notifications";
 import { formatDate, formatINR } from "@/lib/utils";
@@ -175,10 +175,13 @@ export type FeeSummary = { billedPaise: number; receivedPaise: number; outstandi
  * this year. Outstanding and overdue are as of today across all open invoices,
  * because dues from last year are still owed.
  */
-export async function getFeeSummary(userId: string): Promise<{ billedPaise: number; receivedPaise: number; outstandingPaise: number; overdueCount: number }> {
+export async function getFeeSummary(
+  userId: string,
+  txOpt?: Tx,
+): Promise<{ billedPaise: number; receivedPaise: number; outstandingPaise: number; overdueCount: number }> {
   const today = istToday();
   const fy = financialYearOf(today);
-  return withUser(userId, async (tx) => {
+  const run = async (tx: Tx) => {
     const [[billed], [received], open] = await Promise.all([
       tx
         .select({ v: sql<number>`coalesce(sum(${invoices.totalPaise}), 0)`.mapWith(Number) })
@@ -200,7 +203,8 @@ export async function getFeeSummary(userId: string): Promise<{ billedPaise: numb
       if (isOverdue(inv, today)) overdueCount++;
     }
     return { billedPaise: billed?.v ?? 0, receivedPaise: received?.v ?? 0, outstandingPaise, overdueCount };
-  });
+  };
+  return txOpt ? run(txOpt) : withUser(userId, run);
 }
 
 /** Overdue, unpaid invoices for the notifications bell (oldest due first, at most 5). */
