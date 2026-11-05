@@ -92,32 +92,37 @@ type Activity = {
 
 export default async function DashboardPage() {
   const user = await requireUser("/app");
-  const data = await withUser(user.id, async (tx) => {
-    const [recentChats, recentDrafts, recentEnvelopes, recentDocs, consentRows, [pendingSign]] = await Promise.all([
-      tx.select({ id: chats.id, title: chats.title, updatedAt: chats.updatedAt }).from(chats).orderBy(desc(chats.updatedAt)).limit(4),
-      tx.select({ id: drafts.id, title: drafts.title, updatedAt: drafts.updatedAt, status: drafts.status }).from(drafts).orderBy(desc(drafts.updatedAt)).limit(4),
-      tx.select({ id: envelopes.id, title: envelopes.title, status: envelopes.status, updatedAt: envelopes.updatedAt }).from(envelopes).orderBy(desc(envelopes.updatedAt)).limit(4),
-      tx.select({ id: documents.id, name: documents.name, createdAt: documents.createdAt }).from(documents).orderBy(desc(documents.createdAt)).limit(4),
-      tx.select({ id: consents.id }).from(consents).where(eq(consents.purpose, "service")).limit(1),
-      tx
-        .select({ n: count() })
-        .from(envelopes)
-        .where(and(eq(envelopes.ownerId, user.id), inArray(envelopes.status, ["OUT_FOR_SIGNATURE", "PARTIALLY_SIGNED"]))),
-    ]);
-    return {
-      recentChats,
-      recentDrafts,
-      recentEnvelopes,
-      recentDocs,
-      hasConsent: consentRows.length > 0,
-      pendingSign: pendingSign?.n ?? 0,
-    };
-  });
+  const [data, board, fees, updatesAccess, rawUpdates] = await Promise.all([
+    withUser(user.id, async (tx) => {
+      const [recentChats, recentDrafts, recentEnvelopes, recentDocs, consentRows, [pendingSign]] = await Promise.all([
+        tx.select({ id: chats.id, title: chats.title, updatedAt: chats.updatedAt }).from(chats).orderBy(desc(chats.updatedAt)).limit(4),
+        tx.select({ id: drafts.id, title: drafts.title, updatedAt: drafts.updatedAt, status: drafts.status }).from(drafts).orderBy(desc(drafts.updatedAt)).limit(4),
+        tx.select({ id: envelopes.id, title: envelopes.title, status: envelopes.status, updatedAt: envelopes.updatedAt }).from(envelopes).orderBy(desc(envelopes.updatedAt)).limit(4),
+        tx.select({ id: documents.id, name: documents.name, createdAt: documents.createdAt }).from(documents).orderBy(desc(documents.createdAt)).limit(4),
+        tx.select({ id: consents.id }).from(consents).where(eq(consents.purpose, "service")).limit(1),
+        tx
+          .select({ n: count() })
+          .from(envelopes)
+          .where(and(eq(envelopes.ownerId, user.id), inArray(envelopes.status, ["OUT_FOR_SIGNATURE", "PARTIALLY_SIGNED"]))),
+      ]);
+      return {
+        recentChats,
+        recentDrafts,
+        recentEnvelopes,
+        recentDocs,
+        hasConsent: consentRows.length > 0,
+        pendingSign: pendingSign?.n ?? 0,
+      };
+    }),
+    getDiaryBoard(user.id),
+    getFeeSummary(user.id),
+    getUpdatesAccess(user),
+    latestUpdates(4),
+  ]);
 
   if (!data.hasConsent) return <ConsentGate name={user.name} />;
 
-  const [board, fees, updatesAccess] = await Promise.all([getDiaryBoard(user.id), getFeeSummary(user.id), getUpdatesAccess(user)]);
-  const updates = hasUpdatesAccess(updatesAccess) ? await latestUpdates(4) : [];
+  const updates = hasUpdatesAccess(updatesAccess) ? rawUpdates : [];
   const today = todayIST();
   const listed = board.today.filter((h) => h.status !== "cancelled");
   const nextUp = listed.find((h) => h.status === "scheduled") ?? board.upcoming[0] ?? null;

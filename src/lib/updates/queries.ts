@@ -1,5 +1,6 @@
 import "server-only";
 import { and, desc, eq, gt, inArray, ne, not, arrayContains, sql, type SQL } from "drizzle-orm";
+import { unstable_cache } from "next/cache";
 import { db, withUser } from "@/lib/db";
 import { legalUpdates, syncRuns, updateReceipts } from "@/lib/db/schema";
 import { getUpdatesAccess, hasUpdatesAccess } from "@/lib/billing/entitlements";
@@ -92,14 +93,18 @@ export async function latestTitles(limit = 3): Promise<{ id: string; title: stri
 }
 
 /** Recent non-hidden items for the dashboard card. */
-export async function latestUpdates(limit = 4): Promise<UpdateRow[]> {
-  return db
-    .select(cols)
-    .from(legalUpdates)
-    .where(ne(legalUpdates.importance, "hidden"))
-    .orderBy(listOrder, desc(legalUpdates.createdAt))
-    .limit(Math.max(1, Math.min(limit, 20)));
-}
+export const latestUpdates = unstable_cache(
+  async (limit = 4): Promise<UpdateRow[]> => {
+    return db
+      .select(cols)
+      .from(legalUpdates)
+      .where(ne(legalUpdates.importance, "hidden"))
+      .orderBy(listOrder, desc(legalUpdates.createdAt))
+      .limit(Math.max(1, Math.min(limit, 20)));
+  },
+  ["latest-legal-updates"],
+  { revalidate: 3600, tags: ["legal-updates"] }
+);
 
 /**
  * High-importance items the user has not seen: found after their last "seen" mark (or in

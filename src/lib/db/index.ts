@@ -20,7 +20,7 @@ function connect(): Db {
     // prepare:false keeps the client compatible with Supabase's transaction pooler.
     const client = postgres(env.DATABASE_URL, {
       prepare: false,
-      max: 5,
+      max: 15,
       idle_timeout: 20,
       connect_timeout: 10,
       onnotice: () => {},
