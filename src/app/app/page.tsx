@@ -92,8 +92,8 @@ type Activity = {
 
 export default async function DashboardPage() {
   const user = await requireUser("/app");
-  const dashboardData = await withUser(user.id, async (tx) => {
-    const [recentChats, recentDrafts, recentEnvelopes, recentDocs, consentRows, [pendingSign], board, fees] = await Promise.all([
+  const data = await withUser(user.id, async (tx) => {
+    const [recentChats, recentDrafts, recentEnvelopes, recentDocs, consentRows, [pendingSign]] = await Promise.all([
       tx.select({ id: chats.id, title: chats.title, updatedAt: chats.updatedAt }).from(chats).orderBy(desc(chats.updatedAt)).limit(4),
       tx.select({ id: drafts.id, title: drafts.title, updatedAt: drafts.updatedAt, status: drafts.status }).from(drafts).orderBy(desc(drafts.updatedAt)).limit(4),
       tx.select({ id: envelopes.id, title: envelopes.title, status: envelopes.status, updatedAt: envelopes.updatedAt }).from(envelopes).orderBy(desc(envelopes.updatedAt)).limit(4),
@@ -103,10 +103,7 @@ export default async function DashboardPage() {
         .select({ n: count() })
         .from(envelopes)
         .where(and(eq(envelopes.ownerId, user.id), inArray(envelopes.status, ["OUT_FOR_SIGNATURE", "PARTIALLY_SIGNED"]))),
-      getDiaryBoard(user.id, tx),
-      getFeeSummary(user.id, tx),
     ]);
-
     return {
       recentChats,
       recentDrafts,
@@ -114,24 +111,21 @@ export default async function DashboardPage() {
       recentDocs,
       hasConsent: consentRows.length > 0,
       pendingSign: pendingSign?.n ?? 0,
-      board,
-      fees,
     };
   });
 
-  if (!dashboardData.hasConsent) return <ConsentGate name={user.name} />;
+  if (!data.hasConsent) return <ConsentGate name={user.name} />;
 
-  const updatesAccess = await getUpdatesAccess(user);
+  const [board, fees, updatesAccess] = await Promise.all([getDiaryBoard(user.id), getFeeSummary(user.id), getUpdatesAccess(user)]);
   const updates = hasUpdatesAccess(updatesAccess) ? await latestUpdates(4) : [];
-  const { recentChats, recentDrafts, recentEnvelopes, recentDocs, board, fees } = dashboardData;
   const today = todayIST();
   const listed = board.today.filter((h) => h.status !== "cancelled");
   const nextUp = listed.find((h) => h.status === "scheduled") ?? board.upcoming[0] ?? null;
   const courtList = listed.length ? listed : board.upcoming;
 
   const activity: Activity[] = [
-    ...recentChats.map((c) => ({ id: `c${c.id}`, title: c.title, kind: "Ask AI", href: `/app/chat/${c.id}`, at: c.updatedAt, icon: MessageSquareText, tone: "navy" as const })),
-    ...recentDrafts.map((d) => ({
+    ...data.recentChats.map((c) => ({ id: `c${c.id}`, title: c.title, kind: "Ask AI", href: `/app/chat/${c.id}`, at: c.updatedAt, icon: MessageSquareText, tone: "navy" as const })),
+    ...data.recentDrafts.map((d) => ({
       id: `d${d.id}`,
       title: d.title,
       kind: "Draft",
@@ -141,7 +135,7 @@ export default async function DashboardPage() {
       tone: "teal" as const,
       chip: d.status === "final" ? { label: "Final", tone: "success" as const } : { label: "Draft", tone: "neutral" as const },
     })),
-    ...recentEnvelopes.map((e) => ({
+    ...data.recentEnvelopes.map((e) => ({
       id: `e${e.id}`,
       title: e.title,
       kind: "E-sign",
@@ -151,7 +145,7 @@ export default async function DashboardPage() {
       tone: "maroon" as const,
       chip: { label: e.status.replaceAll("_", " ").toLowerCase(), tone: envelopeTone[e.status] ?? "neutral" },
     })),
-    ...recentDocs.map((d) => ({ id: `f${d.id}`, title: d.name, kind: "Document", href: `/app/documents/${d.id}`, at: d.createdAt, icon: FileSearch, tone: "slate" as const })),
+    ...data.recentDocs.map((d) => ({ id: `f${d.id}`, title: d.name, kind: "Document", href: `/app/documents/${d.id}`, at: d.createdAt, icon: FileSearch, tone: "slate" as const })),
   ]
     .sort((a, b) => b.at.getTime() - a.at.getTime())
     .slice(0, 7);
@@ -196,7 +190,7 @@ export default async function DashboardPage() {
 
         <div className="glass-on-brand mt-5 grid grid-cols-3 divide-x divide-white/10 rounded-lg">
           <HeroStat label="This week" value={String(board.counts.week)} href="/app/diary" />
-          <HeroStat label="Awaiting signature" value={String(dashboardData.pendingSign)} href="/app/sign" />
+          <HeroStat label="Awaiting signature" value={String(data.pendingSign)} href="/app/sign" />
           <HeroStat label="Fees due" value={formatINRCompact(fees.outstandingPaise)} href="/app/fees" small privateValue />
         </div>
 

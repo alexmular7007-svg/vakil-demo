@@ -110,10 +110,7 @@ async function boardCounts(tx: Tx, userId: string, today: string) {
  * today = hearings listed today (not cancelled); upcoming = the next 7 days
  * (scheduled, max 8); tasksDue = open tasks due today or earlier (max 8).
  */
-export async function getDiaryBoard(
-  userId: string,
-  txOpt?: Tx,
-): Promise<{
+export async function getDiaryBoard(userId: string): Promise<{
   today: HearingItem[];
   upcoming: HearingItem[];
   tasksDue: TaskItem[];
@@ -121,7 +118,7 @@ export async function getDiaryBoard(
 }> {
   await connection();
   const today = todayIST();
-  const run = async (tx: Tx) => {
+  return withUser(userId, async (tx) => {
     const [todayList, upcoming, tasksDue, counts] = await Promise.all([
       listHearings(tx, userId, and(eq(hearings.hearingDate, today), ne(hearings.status, "cancelled")), { limit: 50 }),
       listHearings(tx, userId, and(gt(hearings.hearingDate, today), lte(hearings.hearingDate, addDays(today, 7)), eq(hearings.status, "scheduled")), {
@@ -131,18 +128,15 @@ export async function getDiaryBoard(
       boardCounts(tx, userId, today),
     ]);
     return { today: todayList, upcoming, tasksDue, counts };
-  };
-  return txOpt ? run(txOpt) : withUser(userId, run);
+  });
 }
 
 /** Diary notices for the bell: hearings today (urgent) and tomorrow, and overdue open tasks. */
-export async function hearingNotices(
-  userId: string,
-  txOpt?: Tx,
-): Promise<Notice[]> {
+export async function hearingNotices(userId: string): Promise<Notice[]> {
+  await connection();
   const today = todayIST();
   const tomorrow = addDays(today, 1);
-  const run = async (tx: Tx) => {
+  return withUser(userId, async (tx) => {
     const [soon, overdue] = await Promise.all([
       listHearings(tx, userId, and(gte(hearings.hearingDate, today), lte(hearings.hearingDate, tomorrow), eq(hearings.status, "scheduled")), {
         limit: 10,
@@ -180,8 +174,7 @@ export async function hearingNotices(
       });
     }
     return out;
-  };
-  return txOpt ? run(txOpt) : withUser(userId, run);
+  });
 }
 
 /* --------------------------------------------------------------------------

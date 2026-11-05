@@ -1,6 +1,6 @@
 import "server-only";
 import { and, asc, desc, eq, gte, inArray, lt, lte, sql, type SQL } from "drizzle-orm";
-import { withUser, type Tx } from "@/lib/db";
+import { withUser } from "@/lib/db";
 import { advocateProfiles, clients, feeReceipts, invoices, matters, practiceProfiles } from "@/lib/db/schema";
 import type { Notice } from "@/lib/notifications";
 import { formatDate, formatINR } from "@/lib/utils";
@@ -175,13 +175,10 @@ export type FeeSummary = { billedPaise: number; receivedPaise: number; outstandi
  * this year. Outstanding and overdue are as of today across all open invoices,
  * because dues from last year are still owed.
  */
-export async function getFeeSummary(
-  userId: string,
-  txOpt?: Tx,
-): Promise<{ billedPaise: number; receivedPaise: number; outstandingPaise: number; overdueCount: number }> {
+export async function getFeeSummary(userId: string): Promise<{ billedPaise: number; receivedPaise: number; outstandingPaise: number; overdueCount: number }> {
   const today = istToday();
   const fy = financialYearOf(today);
-  const run = async (tx: Tx) => {
+  return withUser(userId, async (tx) => {
     const [[billed], [received], open] = await Promise.all([
       tx
         .select({ v: sql<number>`coalesce(sum(${invoices.totalPaise}), 0)`.mapWith(Number) })
@@ -203,15 +200,14 @@ export async function getFeeSummary(
       if (isOverdue(inv, today)) overdueCount++;
     }
     return { billedPaise: billed?.v ?? 0, receivedPaise: received?.v ?? 0, outstandingPaise, overdueCount };
-  };
-  return txOpt ? run(txOpt) : withUser(userId, run);
+  });
 }
 
 /** Overdue, unpaid invoices for the notifications bell (oldest due first, at most 5). */
-export async function invoiceNotices(userId: string, txOpt?: Tx): Promise<Notice[]> {
+export async function invoiceNotices(userId: string): Promise<Notice[]> {
   const today = istToday();
-  const run = async (tx: Tx) => {
-    const rows = await tx
+  const rows = await withUser(userId, (tx) =>
+    tx
       .select({
         id: invoices.id,
         number: invoices.number,
@@ -225,23 +221,22 @@ export async function invoiceNotices(userId: string, txOpt?: Tx): Promise<Notice
       .from(invoices)
       .where(and(eq(invoices.ownerId, userId), inArray(invoices.status, OPEN), lt(invoices.dueDate, today)))
       .orderBy(asc(invoices.dueDate))
-      .limit(20);
-    const out: Notice[] = [];
-    for (const r of rows) {
-      if (!r.dueDate || !isOverdue(r, today)) continue;
-      const late = daysOverdue(r.dueDate, today);
-      out.push({
-        id: `inv-${r.id}`,
-        kind: "invoice",
-        title: `Fee overdue: ${r.number}`,
-        detail: `${formatINR(balanceOf(r))} from ${r.billTo?.name ?? "client"} · due ${formatDate(r.dueDate)} (${late} ${late === 1 ? "day" : "days"} late)`,
-        href: `/app/fees/${r.id}`,
-        at: new Date(`${r.dueDate}T00:00:00+05:30`).toISOString(),
-        urgent: late > 30,
-      });
-      if (out.length === 5) break;
-    }
-    return out;
-  };
-  return txOpt ? run(txOpt) : withUser(userId, run);
+      .limit(20),
+  );
+  const out: Notice[] = [];
+  for (const r of rows) {
+    if (!r.dueDate || !isOverdue(r, today)) continue;
+    const late = daysOverdue(r.dueDate, today);
+    out.push({
+      id: `inv-${r.id}`,
+      kind: "invoice",
+      title: `Fee overdue: ${r.number}`,
+      detail: `${formatINR(balanceOf(r))} from ${r.billTo?.name ?? "client"} · due ${formatDate(r.dueDate)} (${late} ${late === 1 ? "day" : "days"} late)`,
+      href: `/app/fees/${r.id}`,
+      at: new Date(`${r.dueDate}T00:00:00+05:30`).toISOString(),
+      urgent: late > 30,
+    });
+    if (out.length === 5) break;
+  }
+  return out;
 }
